@@ -1,0 +1,55 @@
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.spaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+.containerMenu {
+    width: 500px;
+}
+.menu {
+    margin:10px;
+    background-color: transparent;
+    border:none;
+}
+.order{
+background-color:#CA9C5E;
+color: white;
+
+}
+.order:hover{
+    background-color: #e3a452;
+}
+.image{
+
+    width: 100px;
+    height: 100px;
+}
+.container {
+    margin:50px;
+}
+.container500 {
+width: 45%;
+}
+h2 {
+    font-family:  'Lobster Two';
+    font-size:40px
+}
+h3 {
+    font-family:  'Lobster Two';
+    
+}
