@@ -27,83 +27,89 @@ function Contact() {
       <div className="center">
         <h1>Contact</h1>
       </div>
-      <div className="container">
-        <div className="wrap row ">
-          <div className="container500">
-            <h2>Contact</h2>
-            <h6>510 Mount Eden Road, Mount Eden, Auckland 1024</h6>
+      <div className="container center">
+        <div>
+          <div className="wrap row ">
+            <div className="container500">
+              <h2>Contact</h2>
+              <h6>510 Mount Eden Road, Mount Eden, Auckland 1024</h6>
+            </div>
+            <div>
+              <h3>T: 09 630 6656</h3>
+              <h3>E: info@indianlounge.co.nz</h3>
+            </div>
           </div>
-          <div>
-            <h3>T: 09 630 6656</h3>
-            <h3>E: info@indianlounge.co.nz</h3>
-          </div>
-        </div>
-        <div className="wrap row">
-          <div className="container500">
-            <h2>Follow Us</h2>
-            <h6>Facebook</h6>
-            <h6>Instagram</h6>
-            <h6>TripAdvisor</h6>
-          </div>
-          <div >
-            <h2>Opening Hours</h2>
-            <div className="spaceBetween wrap">
-              <div>
-                <h4>Lunch Time</h4>
-                <h5>Monday to Sunday</h5>
-                <h6>12.00pm - 3:00pm</h6>
-              </div>
-              <div>
-                <h4>Dinner Time</h4>
-                <h5>Monday to Sunday</h5>
-                <h6>5.00pm - 10:30pm</h6>
+          <div className="wrap row">
+            <div className="container500">
+              <h2>Follow Us</h2>
+              <h6>Facebook</h6>
+              <h6>Instagram</h6>
+              <h6>TripAdvisor</h6>
+            </div>
+            <div >
+              <h2>Opening Hours</h2>
+              <div className="spaceBetween wrap">
+                <div>
+                  <h4>Lunch Time</h4>
+                  <h5>Monday to Sunday</h5>
+                  <h6>12.00pm - 3:00pm</h6>
+                </div>
+                <div>
+                  <h4>Dinner Time</h4>
+                  <h5>Monday to Sunday</h5>
+                  <h6>5.00pm - 10:30pm</h6>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
       <div>map</div>
-      <div>
-        <h2>Get in touch</h2>
-        <div>
-          left
+      <div className="center">
+        <div className="container300">
+          <h2>Get in touch</h2>
           <p>
             If you have questions or comments, please get a hold of us in
             whichever way is most convenient. Ask away. There is no reasonable
             question that our team can not answer.
           </p>
         </div>
-        <div>
-          right
-          <form>
+        <div className="container700">
+
+          <form className="column">
             <label>
               YOUR NAME
-              <input
-                type="p"
-                name="from_name"
-                value={toSend.from_name}
-                onChange={handleChange}
-              />
             </label>
+            <input
+              type="p"
+              name="from_name"
+              value={toSend.from_name}
+              onChange={handleChange}
+            />
+
             <label>
               YOUR EMAIL
-              <input
-                type="p"
-                name="reply_to"
-                value={toSend.reply_to}
-                onChange={handleChange}
-              />
             </label>
+            <input
+              type="p"
+              name="reply_to"
+              value={toSend.reply_to}
+              onChange={handleChange}
+            />
+
             <label>
               YOUR MESSAGE (OPTIONAL)
-              <input
-                type="p"
-                name="message"
-                value={toSend.message}
-                onChange={handleChange}
-              />
             </label>
-            <input type="submit" value="Submit" onClick={onSubmit} />
+            <input
+            className="message"
+              type="p"
+              name="message"
+              value={toSend.message}
+              onChange={handleChange}
+            />
+
+            <input className='order menu btn' type="submit" value="Submit" onClick={onSubmit} />
           </form>
         </div>
       </div>
