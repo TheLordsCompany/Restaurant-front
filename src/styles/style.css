@@ -1,0 +1,92 @@
+.textCenter {
+    text-align: center;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Center {
+    justify-content: center;
+    display: flex;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.spaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+.containerMenu {
+    width: 500px;
+}
+.menu {
+    margin:10px;
+    background-color: transparent;
+    border:none;
+    height: 30px;
+}
+.menu:hover {
+    color: #CA9C5E;
+}
+.order{
+background-color:#CA9C5E;
+color: white;
+border-radius: 5px;
+
+}
+.order:hover{
+    background-color: #e3a452;
+    color:white
+}
+.image{
+
+    width: 100px;
+    height: 100px;
+}
+.container {
+    margin:50px;
+}
+.container700 {
+    width: 700px;
+}
+.container500 {
+width: 500px;
+}
+.container300 {
+    width: 300px;
+}
+.container250 {
+    width: 250px;
+}
+.card {
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+}
+h2 {
+    font-family:  'Lobster Two';
+    font-size:40px
+}
+h3 {
+    font-family:  'Lobster Two'; 
+}
+.btn{
+    width: 100px;
+}
+input {
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid 
+}
+.message {
+    height: 80px;
+}
