@@ -1,12 +1,17 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-function Header() {
+import { useLocation, useNavigate } from "react-router-dom";
+import iconFacebook from '../assets/images/Icon FB.svg'
+import {IoLogoInstagram} from 'react-icons/io'
+function Header(props) {
   let navigate = useNavigate();
+  let location=useLocation()
+  let path=location.pathname
   return (
-    <div className="spaceBetween">
+    <div className="spaceBetween headerApp "style={props.scrollY>=50||path==='/gallery'?{backgroundColor:'black'}:{}}>
       <div className="containerMenu center">
         <button
-          className="menu"
+          className="menu signika white"
+          
           onClick={() => {
             navigate("/about");
           }}
@@ -14,26 +19,29 @@ function Header() {
           ABOUT
         </button>
         <button
+          className="menu signika white"
+         
           onClick={() => {
             navigate("/menu");
           }}
-          className="menu"
         >
           MENU
         </button>
         <button
+            className="menu signika white"
+            
           onClick={() => {
             navigate("/gallery");
           }}
-          className="menu"
         >
           GALLERY
         </button>
         <button
+        className="menu signika white"
+        
           onClick={() => {
             navigate("/contact");
           }}
-          className="menu"
         >
           CONTACT
         </button>
@@ -47,14 +55,18 @@ function Header() {
       </div>
       <div className="containerMenu center">
         <button
+            className="menu signika white"
+            
           onClick={() => {
             navigate("/reservation");
           }}
-          className="menu"
         >
           RESERVATION
         </button>
-        <button className="menu order">ORDER ONLINE</button>
+        <button className="menu order signika">ORDER ONLINE</button>
+        <img src={iconFacebook} className='icon'/>
+        <IoLogoInstagram height={30}/>
+        
       </div>
     </div>
   );

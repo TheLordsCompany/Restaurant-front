@@ -7,9 +7,7 @@ function Home() {
 
   return (
     <div>
-      <header>
-       
-      </header>
+      Home
     </div>
   );
 }

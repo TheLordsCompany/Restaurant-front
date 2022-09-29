@@ -15,54 +15,58 @@ import naanBreads from '../constants/naanBreads'
 function Menu() {
   return (
     <div>
-      <div className='center'>
-        <h1>Our Menu</h1>
+      <div className='center headerPage' style={{ backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-16-min-scaled.jpg")' }}>
+        <div className='headerOpacity center'>
+          <h1 className='signika xlarger' >Our Menu</h1>
+        </div>
       </div>
-      <div className='container Center'>
+      <div className='center'>
+      <div className='container spaceBetween'>
         <div className='container500'>
-          <h2>QUICK NIBBLES</h2>
+          <h2 className='archivo blod orange'>QUICK NIBBLES</h2>
           {quickNibbles.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2>{'SNACKS AND LITES (VEG)'}</h2>
+          <h2 className='archivo blod orange'>{'SNACKS AND LITES (VEG)'}</h2>
           {snacksAndLitesVeg.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2>{'SNACKS AND LITES (NON VEG)'}</h2>
+          <h2 className='archivo blod orange'>{'SNACKS AND LITES (NON VEG)'}</h2>
           {snacksAndLitesNonVeg.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2>{'BIRYANIS'}</h2>
+          <h2 className='archivo blod orange'>{'BIRYANIS'}</h2>
           {biryanis.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2>{'SIDES & SALADS'}</h2>
+          <h2 className='archivo blod orange'>{'SIDES & SALADS'}</h2>
           {sidesAndSalads.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2>{'DESSERTS'}</h2>
+          <h2 className='archivo blod orange'>{'DESSERTS'}</h2>
           {desserts.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
         </div>
         <div className='container500'>
-          <h2>{'MAINS (NON-VEG)'}</h2>
+          <h2 className='archivo blod orange'>{'MAINS (NON-VEG)'}</h2>
           {mainsNonVeg.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
           ))}
-          <h2>{'MAINS SEAFOOD'}</h2>
+          <h2 className='archivo blod orange'>{'MAINS SEAFOOD'}</h2>
           {mainsSeafoud.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
           ))}
-          <h2>{'MAINS(VEGETARIAN)'}</h2>
+          <h2 className='archivo blod orange'>{'MAINS(VEGETARIAN)'}</h2>
           {mainsVegetarian.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
           ))}
-          <h2>{'NAAN BREADS'}</h2>
+          <h2 className='archivo blod orange'>{'NAAN BREADS'}</h2>
           {naanBreads.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
           ))}
         </div>
+      </div>
       </div>
     </div>
   )

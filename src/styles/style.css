@@ -27,6 +27,7 @@
 }
 .containerMenu {
     width: 500px;
+    
 }
 .menu {
     margin:10px;
@@ -54,30 +55,71 @@ border-radius: 5px;
 }
 .container {
     margin:50px;
+    width: 1140px;
 }
 .container700 {
     width: 700px;
+    margin: 20px;
 }
 .container500 {
 width: 500px;
+margin: 20px;
+
 }
 .container300 {
     width: 300px;
+    margin: 20px;
 }
 .container250 {
     width: 250px;
 }
 .card {
-    height: 300px;
-    border: 1px solid black;
+    width: 350px;
+    height: 360px;
+    
     margin: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:white
 }
-h2 {
-    font-family:  'Lobster Two';
-    font-size:40px
+.lobster {
+    font-family:  'Lobster Two';  
 }
-h3 {
-    font-family:  'Lobster Two'; 
+.archivo {
+    font-family: 'Archivo', sans-serif;
+}
+.signika {
+    font-family: 'Signika', sans-serif;
+}
+.helvetica {
+    font-family: 'Helvetica Neue';
+}
+.large {
+    font-size:36px
+}
+.larger {
+    font-size: 66px;
+}
+.xlarger{
+    font-size: 90px;
+}
+.meduim {
+    font-size: 18px;
+}
+.small {
+    font-size:14px ;
+}
+.blod {
+    font-weight: 500 ;
+}
+.bloder {
+    font-weight: 900;
+}
+.normal {
+    font-weight: 400;
+}
+.lighter {
+    font-weight:100;
 }
 .btn{
     width: 100px;
@@ -89,4 +131,48 @@ input {
 }
 .message {
     height: 80px;
+}
+.orange {
+    color: #CA9C5E;
+}
+.imageZone {  
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: 0% 0%;
+transition: all 1s ease-out 100ms
+}
+.imageZone:hover {
+background-size: 110% ;
+/* background-position: 50% 0%; */
+}
+.clip {
+    clip: rect(10px,190px,190px,10px);
+}
+.headerPage{
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    background-position: 0 50%;
+}
+.headerApp{
+    position: fixed;
+    top: 0;
+    color:white;
+    width: 100%;
+    height: 100px;
+}
+.headerOpacity {
+background-color: rgba(0, 0, 0, 0.336) ;
+height: 550px;
+width: 100%;
+}
+.white {
+    color: white;
+}
+.absolute {
+    position: absolute;
+}
+.icon {
+    height: 30px;
 }

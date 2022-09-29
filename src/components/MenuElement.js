@@ -5,9 +5,9 @@ function MenuElement({ elem }) {
         <div className=''>
             <div className='spaceBetween'>
                 <h3>{elem.title}</h3>
-                <p>{elem.price}</p>
+                <p >{elem.price}</p>
             </div>
-            {elem.description && <p>{elem.description}</p>}
+            {elem.description && <p className='lighter small'>{elem.description}</p>}
         </div>
     )
 }
