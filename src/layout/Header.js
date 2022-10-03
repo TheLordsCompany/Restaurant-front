@@ -2,15 +2,17 @@ import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import iconFacebook from '../assets/images/Icon FB.svg'
 import {IoLogoInstagram} from 'react-icons/io'
+import logo from "../Afreen_logo_inverted.png";
+
 function Header(props) {
   let navigate = useNavigate();
   let location=useLocation()
   let path=location.pathname
   return (
-    <div className="spaceBetween headerApp "style={props.scrollY>=50||path==='/gallery'?{backgroundColor:'black'}:{}}>
+    <div className="spaceBetween headerApp "style={props.scrollY>=100||path==='/gallery'?{backgroundColor:'black'}:{}}>
       <div className="containerMenu center">
         <button
-          className="menu signika white"
+          className={path=="/about"?" orange menu signika ":"menu signika white"}
           
           onClick={() => {
             navigate("/about");
@@ -19,7 +21,7 @@ function Header(props) {
           ABOUT
         </button>
         <button
-          className="menu signika white"
+         className={path=="/menu"?" orange menu signika ":"menu signika white"}
          
           onClick={() => {
             navigate("/menu");
@@ -28,7 +30,7 @@ function Header(props) {
           MENU
         </button>
         <button
-            className="menu signika white"
+          className={path=="/gallery"?" orange menu signika ":"menu signika white"}
             
           onClick={() => {
             navigate("/gallery");
@@ -37,7 +39,7 @@ function Header(props) {
           GALLERY
         </button>
         <button
-        className="menu signika white"
+        className={path=="/contact"?" orange menu signika ":"menu signika white"}
         
           onClick={() => {
             navigate("/contact");
@@ -46,16 +48,18 @@ function Header(props) {
           CONTACT
         </button>
       </div>
-      <div
+      <div className="Center"
         onClick={() => {
           navigate("/");
         }}
+        style={{width:100}}
       >
-        logo
+         <img className="image" src={logo} alt="logo" style={{height:200,marginTop:-20}} />
+      
       </div>
       <div className="containerMenu center">
         <button
-            className="menu signika white"
+          className={path=="/reservation"?" orange menu signika ":"menu signika white"}
             
           onClick={() => {
             navigate("/reservation");

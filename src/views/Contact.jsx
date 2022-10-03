@@ -74,7 +74,7 @@ function Contact() {
 
         </div>
       </div>
-      <div><iframe title="iframe" width={'100%'} height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=riyad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+      <div><iframe title="iframe" width={'100%'} height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=afreen%20riyad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
       <div className="center">
         <div className="spaceBetween container">
           <div className="container300">
