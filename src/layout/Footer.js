@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../logo512.png";
+import logo from "../Afreen_logo.png";
+
 function Footer() {
   let navigate = useNavigate();
   return (

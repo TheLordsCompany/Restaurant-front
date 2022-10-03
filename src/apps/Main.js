@@ -19,9 +19,9 @@ function Main() {
 }, [])
   return (
     <div>
-      <Header scrollY={scrollPosition.scrollY}/>
       <Outlet />
       {!noFooter && <Footer />}
+      <Header scrollY={scrollPosition.scrollY}/>
     </div>
   );
 }
