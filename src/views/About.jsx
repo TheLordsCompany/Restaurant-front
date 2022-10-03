@@ -45,7 +45,7 @@ function About() {
             <img />
             <h2>Drinks.</h2>
           </div>
-          <div className='center card' style={{ backgroundSize: '180%', backgroundPositionX: -250, backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/Untitled-2.jpg")' }}>
+          <div className='center card specialCard' style={{ backgroundSize: '180%', backgroundPositionX: -250, backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/Untitled-2.jpg")' }}>
             <img />
             <h2>Fine Dine.</h2>
           </div>
@@ -59,15 +59,19 @@ function About() {
             <h2 className='textCenter'>@indianlounge</h2>
           </div>
         </div>
-        <div >
+        <div className='picturesZone'>
           <div className='center'>
-            <div className='imageZone' style={{ borderRadius: 5, margin: 10, height: 375, width: 561, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-39-768x513.jpg')" }}></div>
-            <div className='imageZone' style={{ borderRadius: 5, margin: 10, height: 375, width: 250, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-45-768x1152.jpg')" }}></div>
-            <div className='imageZone' style={{ borderRadius: 5, margin: 10, height: 375, width: 250, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-49.jpg')" }}></div>
+            <div className='row wrap margin'>
+              <div className='imageZone' id='image1' style={{ borderRadius: 5, margin: 10, height: 375, width: 561, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-39-768x513.jpg')" }}></div>
+              <div className='imageZone' id='image2' style={{ borderRadius: 5, margin: 10, height: 375, width: 250, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-45-768x1152.jpg')" }}></div>
+              <div className='imageZone' id='image2' style={{ borderRadius: 5, margin: 10, height: 375, width: 250, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-49.jpg')" }}></div>
+            </div>
           </div>
-          <div className='center'>
-            <div className='imageZone' style={{ borderRadius: 5, margin: 10, height: 499, width: 748, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-53-768x512.jpg')" }}></div>
-            <div className='imageZone' style={{ borderRadius: 5, margin: 10, height: 499, width: 332, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-56-768x1152.jpg')" }}></div>
+          <div className='center '>
+            <div className='row wrap margin'>
+              <div className='imageZone' id='image1' style={{ borderRadius: 5, margin: 10, height: 499, width: 748, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-53-768x512.jpg')" }}></div>
+              <div className='imageZone' id='image2' style={{ borderRadius: 5, margin: 10, height: 499, width: 332, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-56-768x1152.jpg')" }}></div>
+            </div>
           </div>
         </div>
       </div>
