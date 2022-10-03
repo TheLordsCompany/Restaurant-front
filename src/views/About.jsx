@@ -10,16 +10,16 @@ function About() {
 
       </div>
       <div className='center'>
-        <div>
+        <div className='container'>
           <p className='textCenter orange meduim blod'>MORE FLAVOR FOR LESS</p>
           <h2 className='textCenter lobster xlarger'>Good food and</h2>
-          <h2 className='textCenter lobster xlarger '> Great vibes</h2>
+          <h2 className='textCenter lobster xlarger'> Great vibes</h2>
         </div>
       </div>
       <div className='Center'>
         <div className='container'>
-          <div className='spaceBetween wrap'>
-            <div className='' style={{ width: 580 }}>
+          <div className='row wrap'>
+            <div className='containerImage'>
               <img src={'https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-111.jpg'} alt={'food'} style={{ width: '100%' }} />
             </div>
             <div className='container500'>
@@ -29,7 +29,7 @@ function About() {
                 A great meal also comes with great service,
                 ambience and of course the company. At Indian Lounge we pride on Quality service and Quality food. It is our honour to welcome you to experience
                 the warm hospitality and the flavours of India. </p>
-              <p className='meduim blod'>We offer home delivery and takeaway, order your<span className='orange'>food online now.</span> </p>
+              <p className='meduim blod'>We offer home delivery and takeaway, order your <span className='orange'>food online now.</span> </p>
             </div>
           </div>
         </div>

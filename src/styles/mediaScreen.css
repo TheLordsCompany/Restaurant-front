@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1164px) {
+
+    /* For desktop: */
+    .leftHeader .containerMenu {
+        visibility: visible;
+
+    }
+
+    .leftHeader .image {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .rightHeader .image {
+        visibility: hidden;
+    }
+
+    .headerPage {
+        height: 550px;
+    }
+
+}
+
+@media only screen and (max-width:1163px) and (min-width:767px) {
+
+    .leftHeader .containerMenu {
+        visibility: hidden;
+        width: 100px;
+    }
+
+    .leftHeader .image {
+        height: 200px;
+    }
+
+    .middleHeader img {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .rightHeader .containerMenu {
+        visibility: hidden;
+        width: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* For mobile phones: */
+    .leftHeader .containerMenu {
+        visibility: hidden;
+        width: 100px;
+    }
+
+    .leftHeader .image {
+        max-height: 150px;
+    }
+
+    .middleHeader img {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .rightHeader .containerMenu {
+        visibility: hidden;
+        width: 0px;
+
+    }
+    .container {
+        max-width: 90%;
+    }
+    .container .container500{
+        margin:0px;
+        
+
+    }
+    .containerImage{
+       width: 300px;
+       justify-content: center;
+    }
+
+    .headerPage {
+        background-size: 150%;
+        height: 400px;
+    }
+
+    .headerOpacity {
+        height: 400px;
+    }
+
+    .headerPage h1 {
+        font-size: 48px;
+    }
+
+    .container h2 {
+        font-size: 48px;
+    }
+
+}
