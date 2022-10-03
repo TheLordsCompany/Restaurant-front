@@ -1,10 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../logo512.png";
+import logo from "../Afreen_logo.png";
+
 function Footer() {
   let navigate = useNavigate();
   return (
-    <div className="spaceBtween row">
+    <div className="spaceBtween center">
       <div className="containerMenu center ">
         <img className="image" src={logo} alt="logo" />
       </div>
