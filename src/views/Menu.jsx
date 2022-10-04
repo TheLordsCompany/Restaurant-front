@@ -57,7 +57,7 @@ function Menu() {
           {mainsSeafoud.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
           ))}
-          <h2 className='archivo blod orange'>{'MAINS(VEGETARIAN)'}</h2>
+          <h2 className='archivo blod orange'>{'MAINS (VEGETARIAN)'}</h2>
           {mainsVegetarian.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
           ))}
