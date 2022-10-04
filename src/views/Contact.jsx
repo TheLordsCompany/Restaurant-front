@@ -35,9 +35,9 @@ function Contact() {
 
       </div>
       <div className="Center">
-        <div className="container">
+        <div className="margin">
 
-          <div className="wrap row ">
+          <div className="Center wrap  ">
             <div className="container500">
               <p className="lobster bloder large">Contact</p>
               <h6 className="orange">510 Mount Eden Road, Mount Eden, Auckland 1024</h6>
@@ -47,7 +47,7 @@ function Contact() {
               <h3 className="lobster">E: info@indianlounge.co.nz</h3>
             </div>
           </div>
-          <div className="wrap row">
+          <div className="Center row">
             <div className="container500">
               <h2 className="lobster bloder large">Follow Us</h2>
               <h6 className="orange">Facebook</h6>
@@ -56,15 +56,15 @@ function Contact() {
             </div>
             <div className="container300">
               <h2 className="lobster bloder large">Opening Hours</h2>
-              <div className="spaceBetween wrap">
-                <div>
+              <div className=" wrap ">
+                <div className="margin">
                   <h4 className="orange">Lunch Time</h4>
-                  <h5>Monday to Sunday</h5>
+                  <h6>Monday to Sunday</h6>
                   <h6 className="orange">12.00pm - 3:00pm</h6>
                 </div>
-                <div>
+                <div className="margin">
                   <h4 className="orange">Dinner Time</h4>
-                  <h5>Monday to Sunday</h5>
+                  <h6>Monday to Sunday</h6>
                   <h6 className="orange ">5.00pm - 10:30pm</h6>
                 </div>
               </div>
@@ -74,9 +74,9 @@ function Contact() {
 
         </div>
       </div>
-      <div><iframe title="iframe" width={'100%'} height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=afreen%20riyad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+      <div><iframe title="iframe" width={'100%'} height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=afreen%20riyad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div>
       <div className="center">
-        <div className="spaceBetween container">
+        <div className="spaceBetween wrap ">
           <div className="container300">
             <h2>Get in touch</h2>
             <p>

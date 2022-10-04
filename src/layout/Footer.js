@@ -5,12 +5,12 @@ import logo from "../Afreen_logo.png";
 function Footer() {
   let navigate = useNavigate();
   return (
-    <div className="spaceBtween center">
+    <div className="footer spaceBtween center wrap">
       <div className="containerMenu center ">
         <img className="image" src={logo} alt="logo" />
       </div>
 
-      <div className="center column">
+      <div className="center column containerMenu">
         <button
           onClick={() => {
             navigate("/");
