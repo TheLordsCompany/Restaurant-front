@@ -18,6 +18,10 @@
     .headerPage {
         height: 550px;
     }
+    .footer .containerMenu{
+        width: 30%;
+        text-align: center;
+    } 
 
 }
 
@@ -49,6 +53,7 @@
     .headerPage {
         background-size: 150%;
     }
+   
     #image2{
         width: 350px !important;
         height: 400px !important;
@@ -57,6 +62,37 @@
     #image1 {
         width: 700px !important;
         height: 400px !important;
+    }
+    .container500{
+      text-align: center;
+    }
+    .container300 {
+        text-align: center;
+    }
+    .footer .containerMenu{
+        width: 30%;
+        text-align: center;
+    } 
+    .picturesZone{
+        width: 700px;
+    }
+    #pic1 {
+        width: 330px !important ;
+        height: 220px !important;
+    }
+    #pic2{
+        width: 480px !important ;
+        height: 250px !important;
+    }
+    #pic3{
+        height: 250px !important;
+        width: 180px !important;
+    }
+    #pic4{
+        width: 680px !important;
+    }
+    #pic5 {
+        width: 330px !important;
     }
 }
 
@@ -133,7 +169,72 @@
     #image2{
         width: 310px !important;
     }
+    .container700{
+        width: 300px;
+    }
+    .container500{
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    .container300 {
+        text-align: center;
+    }
+    .footer .containerMenu{
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    } 
+    .picturesZone{
+        width: 400px;
+    }
+    #pic1 {
+        width: 390px !important ;
+        height: 250px !important;
+    }
+    #pic2{
+        width: 390px !important ;
+        height: 250px !important;
+    }
+    #pic3{
+        width: 390px !important;
+        height: 450px !important;
+    }
+    #pic4{
+        width: 390px !important;
+        height: 250px !important;
+    }
+    #pic5 {
+        width: 190px !important;
+        height: 250px !important;
+        margin-right: 0px!important;
+    }
 
+}
+@media only screen and (max-width:470px){
+    .picturesZone{
+        width: 300px;
+    }
+    #pic1 {
+        width: 280px !important ;
+        height: 180px !important;
+    }
+    #pic2{
+        width: 280px !important ;
+        height: 180px !important;
+    }
+    #pic3{
+        width: 280px !important;
+        height: 350px !important;
+    }
+    #pic4{
+        width: 280px !important;
+        height: 180px !important;
+    }
+    #pic5 {
+        width: 280px !important;
+        height: 350px !important;
+    }
 }
 
 @media only screen and (max-width:399px) {
@@ -219,4 +320,17 @@
         height: 400px !important;
         width: 300px !important;
     }
+    .container700{
+        width: 300px;
+    }
+    .container500{
+        width: 300px;
+        margin: 0px;
+    }
+    .footer .containerMenu{
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    } 
+
 }
