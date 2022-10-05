@@ -59,7 +59,7 @@ function About() {
             <h2 className='textCenter'>@indianlounge</h2>
           </div>
         </div>
-        <div className='picturesZone'>
+        <div className=''>
           <div className='center'>
             <div className='row wrap margin Center'>
               <div className='imageZone' id='image1' style={{ borderRadius: 5, margin: 10, height: 375, width: 561, backgroundImage: "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-39-768x513.jpg')" }}></div>
