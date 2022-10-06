@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useHistory } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "../views/Home";
 import About from "../views/About";
@@ -7,6 +7,7 @@ import Gallery from "../views/Gallery";
 import Contact from "../views/Contact";
 import Reservation from "../views/Reservation";
 import Main from "../apps/Main";
+import Category from "../views/Category";
 
 
 function Router() {
@@ -21,6 +22,7 @@ function Router() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="contact" element={<Contact />} />
           <Route path="reservation" element={<Reservation />} />
+          <Route path="category" element={<Category />} />
         </Route>
       
       </Routes>
