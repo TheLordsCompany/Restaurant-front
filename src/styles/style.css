@@ -1,6 +1,10 @@
 .textCenter {
     text-align: center;
 }
+.Right {
+    display: flex;
+    justify-content: right;
+}
 .center {
     justify-content: center;
     align-items: center;

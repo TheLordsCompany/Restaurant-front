@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom';
 import Modal from 'react-modal';
-import Food from './Food';
+import Food from '../components/Food';
 const customStyles = {
     content: {
       top: '50%',
