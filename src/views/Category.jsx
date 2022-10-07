@@ -13,17 +13,17 @@ const customStyles = {
     },
   };
 
+  Modal.setAppElement('#root');
 function Category() {
         const [elem,setElem]=useState({})
     const location = useLocation();
     const data = location.state;
-console.log(data,'hahahahxDXD');
+
 const [modalIsOpen, setIsOpen] = React.useState(false);
   
 function openModal() {
   setIsOpen(true);
 }
-
 
 
 function closeModal() {

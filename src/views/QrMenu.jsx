@@ -2,7 +2,7 @@ import React from "react";
 import * as menu from "../constants/qrMenu";
 import { useNavigate } from 'react-router-dom'
 
-function Reservation() {
+function QrMenu() {
   const nav = useNavigate();
   console.log(menu);
   return (
@@ -46,4 +46,4 @@ function Reservation() {
   );
 }
 
-export default Reservation;
+export default QrMenu;
