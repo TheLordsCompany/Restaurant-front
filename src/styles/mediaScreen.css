@@ -101,7 +101,7 @@
     /* For mobile phones: */
     .leftHeader .containerMenu {
         visibility: hidden;
-        width: 100px;
+        width: 0px;
     }
 
     .leftHeader .image {
@@ -245,11 +245,11 @@
 
     .leftHeader .containerMenu {
         visibility: hidden;
-        width: 100px;
+        width: 0px;
     }
 
     .leftHeader .image {
-        height: 80px;
+        height: 70px;
     }
 
     .middleHeader img {

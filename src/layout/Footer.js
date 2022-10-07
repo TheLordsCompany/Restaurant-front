@@ -40,11 +40,11 @@ function Footer() {
 
         <button
           onClick={() => {
-            navigate("/reservation");
+            navigate("/qrmenu");
           }}
           className="menu"
         >
-          RESERVATION
+          QR MENU
         </button>
         <button
           onClick={() => {

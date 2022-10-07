@@ -1,6 +1,10 @@
 .textCenter {
     text-align: center;
 }
+.Right {
+    display: flex;
+    justify-content: right;
+}
 .center {
     justify-content: center;
     align-items: center;
@@ -50,7 +54,7 @@
 background-color:#CA9C5E;
 color: white;
 border-radius: 5px;
-width: 150px;
+width:100px;
 
 }
 .order:hover{

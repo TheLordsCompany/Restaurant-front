@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom';
 import Modal from 'react-modal';
-import Food from './Food';
+import Food from '../components/Food';
 const customStyles = {
     content: {
       top: '50%',
@@ -13,17 +13,17 @@ const customStyles = {
     },
   };
 
+  Modal.setAppElement('#root');
 function Category() {
         const [elem,setElem]=useState({})
     const location = useLocation();
     const data = location.state;
-console.log(data,'hahahahxDXD');
+
 const [modalIsOpen, setIsOpen] = React.useState(false);
   
 function openModal() {
   setIsOpen(true);
 }
-
 
 
 function closeModal() {
