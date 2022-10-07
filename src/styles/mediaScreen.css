@@ -96,9 +96,17 @@
     }
     .homeCarousel {
         background-position:center center ;
-        background-size: 150%;
+        /* background-size: 150%; */
         
     }
+    @keyframes zoominoutsinglefeatured {
+        0% {
+          background-size: 150%;
+        }
+        50% {
+          background-size: 160%;
+        }
+      }
 }
 
 @media only screen and (max-width: 767px) and (min-width:400px) {
@@ -216,8 +224,16 @@
     }
     .homeCarousel {
         background-position:center center ;
-        background-size: 200%;   
+        /* background-size: 200%;    */
     }
+    @keyframes zoominoutsinglefeatured {
+        0% {
+          background-size: 250%;
+        }
+        50% {
+          background-size: 260%;
+        }
+      }
 
 }
 @media only screen and (max-width:470px){
@@ -343,7 +359,15 @@
     } 
     .homeCarousel {
         background-position:center center ;
-        background-size: 200%;   
+        /* background-size: 200%;    */
     }
+    @keyframes zoominoutsinglefeatured {
+        0% {
+          background-size: 350%;
+        }
+        50% {
+          background-size: 360%;
+        }
+      }
 
 }
