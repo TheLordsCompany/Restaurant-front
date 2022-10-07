@@ -94,6 +94,11 @@
     #pic5 {
         width: 330px !important;
     }
+    .homeCarousel {
+        background-position:center center ;
+        background-size: 150%;
+        
+    }
 }
 
 @media only screen and (max-width: 767px) and (min-width:400px) {
@@ -209,6 +214,10 @@
         height: 250px !important;
         margin-right: 0px!important;
     }
+    .homeCarousel {
+        background-position:center center ;
+        background-size: 200%;   
+    }
 
 }
 @media only screen and (max-width:470px){
@@ -308,7 +317,7 @@
     }
 
     .specialCard {
-        background-size: 250% !important;
+        background-size: 200% !important;
     }
 
     #image1 {
@@ -332,5 +341,9 @@
         margin-top: 50px;
         margin-bottom: 20px;
     } 
+    .homeCarousel {
+        background-position:center center ;
+        background-size: 200%;   
+    }
 
 }

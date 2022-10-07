@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import MenuElement from '../components/MenuElement'
 import quickNibbles from '../constants/quickNibbles'
 import snacksAndLitesVeg from '../constants/snacksAndLitesVeg'
@@ -13,6 +13,9 @@ import naanBreads from '../constants/naanBreads'
 
 
 function Menu() {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   return (
     <div >
       <div  className='center headerPage' style={{ backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-16-min-scaled.jpg")' }}>
