@@ -5,7 +5,7 @@ import About from "../views/About";
 import Menu from "../views/Menu";
 import Gallery from "../views/Gallery";
 import Contact from "../views/Contact";
-import Reservation from "../views/Reservation";
+import QrMenu from "../views/QrMenu";
 import Main from "../apps/Main";
 import Category from "../views/Category";
 
@@ -21,7 +21,7 @@ function Router() {
           <Route path="menu" element={<Menu />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="reservation" element={<Reservation />} />
+          <Route path="qrmenu" element={<QrMenu />} />
           <Route path="category" element={<Category />} />
         </Route>
       
