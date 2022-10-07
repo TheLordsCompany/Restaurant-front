@@ -1,7 +1,10 @@
-import { React, useState } from "react";
+import { React, useState,useEffect } from "react";
 import { send } from "emailjs-com";
 
 function Contact() {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   const [toSend, setToSend] = useState({
     from_name: "",
     to_name: "",

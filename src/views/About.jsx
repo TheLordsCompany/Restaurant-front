@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 function About() {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   return (
     <div>
       <div className='center headerPage' style={{ backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/h1.jpg")' }}>
