@@ -224,3 +224,37 @@ input {
     width: 100%;
     top: 0;
 }
+.onLoadPic {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+.cardMenu {
+    height: 250px;
+    width: 300px;
+    
+    margin:10px;
+}
+.cardMenuPic {
+    border-radius: 10px;
+    height: 150px;
+    /* width:300px; */
+}
+.cardMenuPrice {
+    border-radius: 10px;
+    background-color: rgb(186, 186, 186);
+    min-width: 60px;
+    height: 30px;
+    border: none;
+
+}
+.backgroundBlack{
+    background-color: black;
+}
+/* .picPopupZOne {
+    height: 500px;
+} */
+.popupPic {
+    height: 300px;
+}
+
