@@ -9,7 +9,7 @@ import pic8 from '../assets/images/8.jpg'
 import pic9 from '../assets/images/9.jpg'
 import pic10 from '../assets/images/10.jpg'
 import pic11 from '../assets/images/11.jpg'
-import pic12 from '../assets/images/12.jpg'
+
 
 
 var array= [
@@ -44,25 +44,25 @@ var array= [
     name: "SALAD",
     elems: [
       {
-        image: "",
+        image: pic4,
         name: "CEASER SALAD",
         price: "85",
         description: "",
       },
       {
-        image: "",
+        image: pic5,
         name: "QUINUA SALAD",
         price: "85",
         description: "",
       },
       {
-        image: "",
+        image: pic6,
         name: "FRIED PRAWN SALAD",
         price: "85",
         description: "",
       },
       {
-        image: "",
+        image: pic7,
         name: "CHEF SALAD (ARABIAN/ROCA)",
         price: "85",
         description: "",
