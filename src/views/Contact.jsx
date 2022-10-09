@@ -1,5 +1,6 @@
 import { React, useState,useEffect } from "react";
 import { send } from "emailjs-com";
+import Header from "../layout/Header";
 
 function Contact() {
   useEffect(()=>{
@@ -27,6 +28,7 @@ function Contact() {
   };
   return (
     <div>
+    
       <div className='center headerPage' style={{ backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/h3.jpg")' }}>
         <div className='headerOpacity center'>
           <div>
@@ -127,6 +129,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <Header />
     </div>
   );
 }
