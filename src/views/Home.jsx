@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
+import Header from "../layout/Header";
 import pic1 from '../assets/images/1.jpg'
 import pic2 from '../assets/images/3.jpg'
 import pic3 from '../assets/images/27.jpg'
 import pic4 from '../assets/images/29.jpg'
 import pic5 from '../assets/images/32.jpg'
+import Loading from "../components/Loading";
 
 
 
@@ -25,6 +27,7 @@ function Home() {
   console.log(value);
   return (
     <div>
+      
       <Carousel
         pause={false}
         indicators={false}
@@ -42,17 +45,15 @@ function Home() {
                 style={{ backgroundImage: `url(${elem})` }}
                 
               >
-                <img src={elem} onLoad={()=>setValue(i+1)} style={{height:0,width:0}} />
+                <img src={elem} onLoad={()=>setValue(i+1)} style={{height:0,width:0}} alt=''/>
               </div>
             </Carousel.Item>
           );
         })}
       </Carousel>
-      {value < 4 && (
-        <div className="loading center">
-          <h1>Loading</h1>
-        </div>
-      )}
+      <Header />
+      {value < 4 &&<Loading/>}
+      
     </div>
   );
 }

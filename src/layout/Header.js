@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import iconFacebook from "../assets/images/Icon FB.svg";
 import { IoLogoInstagram } from "react-icons/io";
@@ -16,11 +16,22 @@ function Header(props) {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const [scrollPosition, setPosition] = useState({ scrollX: 0, scrollY: 0 })
+  useEffect(() => {
+    function updatePosition() {
+        setPosition({ scrollX: window.scrollX, scrollY: window.scrollY })
+    }
+    console.log(window.scrollX, window.scrollY);
+    window.addEventListener('scroll', updatePosition)
+    updatePosition()
+
+    return () => window.removeEventListener('scroll', updatePosition)
+  },[])
   return (
     <div
       className=" headerApp center"
       style={
-        props.scrollY >= 100 || path === "/gallery"
+        scrollPosition.scrollY >= 100 || path === "/gallery"
           ? { backgroundColor: "black" }
           : {}
       }
@@ -31,7 +42,7 @@ function Header(props) {
           <div className="containerMenu center ">
             <button
               className={
-                path == "/about"
+                path === "/about"
                   ? " orange menu signika "
                   : "menu signika white"
               }
@@ -43,7 +54,7 @@ function Header(props) {
             </button>
             <button
               className={
-                path == "/menu" ? " orange menu signika " : "menu signika white"
+                path === "/menu" ? " orange menu signika " : "menu signika white"
               }
               onClick={() => {
                 navigate("/menu");
@@ -53,7 +64,7 @@ function Header(props) {
             </button>
             <button
               className={
-                path == "/gallery"
+                path === "/gallery"
                   ? " orange menu signika "
                   : "menu signika white"
               }
@@ -65,7 +76,7 @@ function Header(props) {
             </button>
             <button
               className={
-                path == "/contact"
+                path === "/contact"
                   ? " orange menu signika "
                   : "menu signika white"
               }
@@ -83,8 +94,7 @@ function Header(props) {
             className="Center"
             onClick={() => {
               navigate("/");
-            }}
-            // style={{ width: 100 }}
+            }}           
           >
             <img
               className="image"
@@ -98,7 +108,7 @@ function Header(props) {
           <div className="containerMenu center ">
             <button
               className={
-                path == "/qrmenu"
+                path === "/qrmenu"
                   ? "  menu signika order "
                   : "menu signika order white"
               }
@@ -111,13 +121,13 @@ function Header(props) {
             <button className="menu  white signika" style={{ width: 150 }}>
               ORDER ONLINE
             </button>
-            <img src={iconFacebook} className="icon" />
+            <img src={iconFacebook} className="icon" alt='' />
             <IoLogoInstagram height={30} />
           </div>
           <div className="image center ">
             <button
               className={
-                path == "/qrmenu"
+                path === "/qrmenu"
                   ? "  menu signika order "
                   : "menu signika order white"
               }
@@ -141,7 +151,7 @@ function Header(props) {
             backdropClassName="offcanvamenu"
           >
             <Offcanvas.Header className="white">
-              <img className="image" src={logo} />
+              <img className="image" src={logo} alt=''/>
               <AiOutlineClose
                 size={30}
                 onClick={handleClose}
@@ -151,7 +161,7 @@ function Header(props) {
             <Offcanvas.Body className="column">
               <button
                 className={
-                  path == "/about"
+                  path === "/about"
                     ? " orange menu signika "
                     : "menu signika white"
                 }
@@ -164,7 +174,7 @@ function Header(props) {
               </button>
               <button
                 className={
-                  path == "/menu"
+                  path === "/menu"
                     ? " orange menu signika "
                     : "menu signika white"
                 }
@@ -177,7 +187,7 @@ function Header(props) {
               </button>
               <button
                 className={
-                  path == "/gallery"
+                  path === "/gallery"
                     ? " orange menu signika "
                     : "menu signika white"
                 }
@@ -190,7 +200,7 @@ function Header(props) {
               </button>
               <button
                 className={
-                  path == "/contact"
+                  path === "/contact"
                     ? " orange menu signika "
                     : "menu signika white"
                 }
@@ -204,7 +214,7 @@ function Header(props) {
               <div className="center">
                 <button
                   className={
-                    path == "/qrmenu"
+                    path === "/qrmenu"
                       ? "  menu order signika "
                       : "menu order signika white"
                   }

@@ -1,63 +1,77 @@
-module.exports=[
+import pic1 from '../assets/images/1.jpg'
+import pic2 from '../assets/images/2.jpg'
+import pic3 from '../assets/images/3.jpg'
+import pic4 from '../assets/images/4.jpg'
+import pic5 from '../assets/images/5.jpg'
+import pic6 from '../assets/images/6.jpg'
+import pic7 from '../assets/images/7.jpg'
+import pic8 from '../assets/images/8.jpg'
+import pic9 from '../assets/images/9.jpg'
+import pic10 from '../assets/images/10.jpg'
+import pic11 from '../assets/images/11.jpg'
+import pic12 from '../assets/images/12.jpg'
+
+
+var array= [
   {
     id: 1,
-    image: "",
+    image: pic1,
     name: "SOUP",
     elems: [
       {
-        image: "",
+        image: pic2,
         name: "CHICKEN CORN SOUP",
-        price: "",
-        description: "",
+        price: "85",
+        description: 'test description',
       },
       {
-        image: "",
+        image: pic1,
         name: "MUSHROOM SOUP",
-        price: "",
-        description: "",
+        price: "85",
+        description: 'test description',
       },
       {
-        image: "",
+        image: pic3,
         name: "FRENCH ONION SOUP",
-        price: "",
-        description: "",
+        price: "85",
+        description: 'test description',
       },
     ],
   },
   {
     id: 2,
-    image: "",
+    image: pic3,
     name: "SALAD",
     elems: [
       {
         image: "",
         name: "CEASER SALAD",
-        price: "",
+        price: "85",
         description: "",
       },
       {
         image: "",
         name: "QUINUA SALAD",
-        price: "",
+        price: "85",
         description: "",
       },
       {
         image: "",
         name: "FRIED PRAWN SALAD",
-        price: "",
+        price: "85",
         description: "",
       },
       {
         image: "",
         name: "CHEF SALAD (ARABIAN/ROCA)",
-        price: "",
+        price: "85",
         description: "",
       },
     ],
   },
   {
     id: 3,
-    image: "",
+    image: pic4,
     name: "APPETIZERS",
     elems: [
       {
@@ -112,7 +126,7 @@ module.exports=[
   },
   {
     id: 4,
-    image: "",
+    image: pic5,
     name: "SANDWICHES",
     elems: [
       {
@@ -131,7 +145,7 @@ module.exports=[
   },
   {
     id: 5,
-    image: "",
+    image: pic6,
     name: "INTERNATIONAL MAIN COURSE",
     elems: [
       {
@@ -155,7 +169,7 @@ module.exports=[
   },
   {
     id: 6,
-    image: "",
+    image: pic7,
     name: "INDIAN MAIN COURSE",
     elems: [
       {
@@ -193,7 +207,7 @@ module.exports=[
     ],
   },{
     id: 7,
-    image: "",
+    image: pic8,
     name: "TANDOOR SPECIAL(GRILL WITH LOVE)",
     elems: [
       {
@@ -221,7 +235,7 @@ module.exports=[
     ]
   },{
     id: 8,
-    image: "",
+    image: pic9,
     name: "BREAD",
     elems: [
       {
@@ -249,7 +263,7 @@ module.exports=[
     ]
   },{
     id: 9,
-    image: "",
+    image: pic10,
     name: "HOT DRINKS",
     elems: [
       {
@@ -287,7 +301,7 @@ module.exports=[
     ]
   },{
     id: 10,
-    image: "",
+    image: pic11,
     name: "COLD DRINKS",
     elems: [
       {
@@ -330,3 +344,4 @@ module.exports=[
     ]
   }
 ];
+export default array
