@@ -216,3 +216,11 @@ input {
     background-size: 110%;
   }
 }
+.loading{
+    position: fixed;
+    background-color: aliceblue;
+    font-size: 100px;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+}

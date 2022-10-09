@@ -101,10 +101,10 @@
     }
     @keyframes zoominoutsinglefeatured {
         0% {
-          background-size: 150%;
+          background-size: 220%;
         }
         50% {
-          background-size: 160%;
+          background-size: 250%;
         }
       }
 }
@@ -228,10 +228,10 @@
     }
     @keyframes zoominoutsinglefeatured {
         0% {
-          background-size: 250%;
+          background-size: 300%;
         }
         50% {
-          background-size: 260%;
+          background-size: 350%;
         }
       }
 
@@ -366,7 +366,7 @@
           background-size: 350%;
         }
         50% {
-          background-size: 360%;
+          background-size: 380%;
         }
       }
 
