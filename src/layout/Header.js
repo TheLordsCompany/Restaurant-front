@@ -31,14 +31,14 @@ function Header(props) {
     <div
       className=" headerApp center"
       style={
-        scrollPosition.scrollY >= 100 || path === "/gallery"
+        scrollPosition.scrollY >= 100 || path === "/gallery" || path==='/qrmenu'
           ? { backgroundColor: "black" }
           : {}
       }
     >
       <div className="header spaceBetween">
         <div className="leftHeader center ">
-          <img className="image" src={logo} alt="logo" />
+          <img className="image" src={logo} alt="logo" onClick={()=>navigate('/')} />
           <div className="containerMenu center ">
             <button
               className={
@@ -151,7 +151,7 @@ function Header(props) {
             backdropClassName="offcanvamenu"
           >
             <Offcanvas.Header className="white">
-              <img className="image" src={logo} alt=''/>
+              <img className="image" src={logo} alt='' onClick={()=>navigate('/')}/>
               <AiOutlineClose
                 size={30}
                 onClick={handleClose}
