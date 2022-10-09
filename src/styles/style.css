@@ -231,14 +231,14 @@ input {
 }
 .cardMenu {
     height: 250px;
-    width: 300px;
-    
+    width: 45%;
     margin:10px;
 }
 .cardMenuPic {
     border-radius: 10px;
-    height: 150px;
-    /* width:300px; */
+    height: 100px;
+    width: 150px;
+    
 }
 .cardMenuPrice {
     border-radius: 10px;
@@ -250,11 +250,30 @@ input {
 }
 .backgroundBlack{
     background-color: black;
+    margin-top: 145px;
 }
-/* .picPopupZOne {
-    height: 500px;
-} */
+
 .popupPic {
     height: 300px;
 }
-
+.carouselQrMenu {
+    height: 300px;
+    width: 300px;
+}
+.flex-container {
+    overflow-x: auto;
+    
+    padding-bottom: 17px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-container::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: rgb(0, 0, 0); 
+   
+  }
+  .flex-container::-webkit-scrollbar-thumb {
+    background: rgb(70, 70, 70);
+    border-radius: 10px;
+  }
