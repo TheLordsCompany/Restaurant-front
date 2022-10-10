@@ -9,11 +9,11 @@ function Gallery() {
   },[])
   return (
     <div> 
-      <div className='Center' style={{height:400,alignItems:'end'}} >
+      <div className='Center instagramName' style={{height:400,alignItems:'end'}} >
         <div data-aos="flip-left" data-aos-duration="1700">
           <p className='orange meduim bold textCenter'>FOLLOW ALONG</p>
           <p className='lobster xlarger bolder' style={{marginTop:10}}>
-            @indianlounge
+            @afreenlounge
           </p>
         </div>
       </div>
