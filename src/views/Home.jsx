@@ -28,16 +28,19 @@ function Home() {
     <div>
       
       <Carousel
-        pause={false}
+        
         indicators={false}
         controls={false}
         interval={4000}
+        fade={true}
         
       >
+        
         {array.map((elem, i) => {
           
           return (
             <Carousel.Item key={i}>
+              <Header />
               <div
                 className="homeCarousel"
                 id={`carousel${i}`}
@@ -50,9 +53,9 @@ function Home() {
           );
         })}
       </Carousel>
-      <Header />
-      {value < 4 &&<Loading/>}
       
+      {value < 4 &&<Loading/>}
+      <Header />
     </div>
   );
 }

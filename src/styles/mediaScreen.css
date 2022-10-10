@@ -387,5 +387,14 @@
         background-image: url('../assets/images/25.jpg') !important;
         background-position: 40% 50% !important;   
     }
+    .xlarger  {
+        font-size:48px; 
+    }
+    .meduim {
+        font-size:18px;
+    }
+    .instagramName {
+        height: 250px !important;
+    }
 
 }
