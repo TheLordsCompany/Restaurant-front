@@ -5,7 +5,7 @@ import Footer from "../layout/Footer";
 
 function Main() {
   var location = useLocation();
-  const noFooter = location.pathname === "/";
+  const noFooter = location.pathname === "/"||location.pathname==='/qrmenu';
 
 
   return (
