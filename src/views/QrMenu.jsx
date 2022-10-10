@@ -43,7 +43,7 @@ function QrMenu() {
             </div>
           ))}
         </div>
-        <div className="spaceBetween">
+        <div className="spaceBetween margin">
           <div className="margin center">
             <h4>{selected.name}</h4>
           </div>
@@ -67,12 +67,12 @@ function QrMenu() {
           </div>
         </div>
         {view === 1 && (
-          <div className="row wrap">
+          <div className="margin row wrap">
             {subMenu.map((elem, i) => (
               <div className="cardMenu">
                 <img src={elem.image} alt="" className="cardMenuPic" />
-                <h6>{elem.name}</h6>
-                <p className="small normal">{"test description"}</p>
+                <h6 className="titleCard">{elem.name}</h6>
+                <p className="discrptionCard">{"test description"}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
                   <p>{elem.price}</p>
                   <p>SA</p>
@@ -82,12 +82,13 @@ function QrMenu() {
           </div>
         )}
         {view === 2 && (
-          <div className="Center wrap">
+          <div className=" margin center">
+            <div style={{width:'90%'}}>
             {subMenu.map((elem, i) => (
-              <div className="spaceBetween margin"  >
-                <div style={{width:200}}>
-                  <h6>{elem.name}</h6>
-                  <p className="small normal">{"test description"}</p>
+              <div className="spaceBetween margin "   >
+                <div className="qrMenuVeiw2ZoneText">
+                  <h6  className="titleCard">{elem.name}</h6>
+                  <p className="discrptionCard">{"test description"}</p>
                   <button className="cardMenuPrice textCenter spaceBetween white">
                     <p>{elem.price}</p>
                     <p>SA</p>
@@ -96,6 +97,7 @@ function QrMenu() {
                 <img src={elem.image} alt="" className="cardMenuPic" />
               </div>
             ))}
+            </div>
           </div>
         )}
       </div>

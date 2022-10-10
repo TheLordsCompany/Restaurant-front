@@ -18,10 +18,11 @@
     .headerPage {
         height: 550px;
     }
-    .footer .containerMenu{
+
+    .footer .containerMenu {
         width: 30%;
         text-align: center;
-    } 
+    }
 
 }
 
@@ -53,60 +54,83 @@
     .headerPage {
         background-size: 150%;
     }
-   
-    #image2{
+
+    #image2 {
         width: 350px !important;
         height: 400px !important;
         margin-left: 50px !important;
     }
+
     #image1 {
         width: 700px !important;
         height: 400px !important;
     }
-    .container500{
-      text-align: center;
+
+    .container500 {
+        text-align: center;
     }
+
     .container300 {
         text-align: center;
     }
-    .footer .containerMenu{
+
+    .footer .containerMenu {
         width: 30%;
         text-align: center;
-    } 
-    .picturesZone{
+    }
+
+    .picturesZone {
         width: 700px;
     }
+
     #pic1 {
-        width: 330px !important ;
+        width: 330px !important;
         height: 220px !important;
     }
-    #pic2{
-        width: 480px !important ;
+
+    #pic2 {
+        width: 480px !important;
         height: 250px !important;
     }
-    #pic3{
+
+    #pic3 {
         height: 250px !important;
         width: 180px !important;
     }
-    #pic4{
+
+    #pic4 {
         width: 680px !important;
     }
+
     #pic5 {
         width: 330px !important;
     }
+
     .homeCarousel {
-        background-position:center center ;
+        background-position: center center;
         /* background-size: 150%; */
-        
+
     }
+
     @keyframes zoominoutsinglefeatured {
         0% {
-          background-size: 220%;
+            background-size: 220%;
         }
+
         50% {
-          background-size: 250%;
+            background-size: 250%;
         }
-      }
+    }
+    .titleCard {
+        font-size: 18px;
+    }
+    .discrptionCard {
+        font-size: 12px;
+        color: rgb(163, 163, 163)
+    }
+    .cardMenu {
+        width: 30%;
+    }
 }
 
 @media only screen and (max-width: 767px) and (min-width:400px) {
@@ -167,95 +191,127 @@
     .container h2 {
         font-size: 48px;
     }
+
     .spaceBetween {
         /* justify-content:baseline; */
         flex-wrap: wrap;
     }
+
     .container .container500 {
         margin-top: 20px;
         width: 90%;
     }
+
     #image1 {
         height: 250px !important;
         width: 380px !important;
     }
-    #image2{
+
+    #image2 {
         width: 310px !important;
     }
-    .container700{
+
+    .container700 {
         width: 300px;
     }
-    .container500{
+
+    .container500 {
         width: 100%;
         margin: 0px;
         text-align: center;
     }
+
     .container300 {
         text-align: center;
     }
-    .footer .containerMenu{
+
+    .footer .containerMenu {
         width: 90%;
         margin-top: 50px;
         margin-bottom: 20px;
-    } 
-    .picturesZone{
+    }
+
+    .picturesZone {
         width: 400px;
     }
+
     #pic1 {
-        width: 390px !important ;
+        width: 390px !important;
         height: 250px !important;
     }
-    #pic2{
-        width: 390px !important ;
+
+    #pic2 {
+        width: 390px !important;
         height: 250px !important;
     }
-    #pic3{
+
+    #pic3 {
         width: 390px !important;
         height: 450px !important;
     }
-    #pic4{
+
+    #pic4 {
         width: 390px !important;
         height: 250px !important;
     }
+
     #pic5 {
         width: 190px !important;
         height: 250px !important;
-        margin-right: 0px!important;
+        margin-right: 0px !important;
     }
+
     .homeCarousel {
-        background-position:center center ;
+        background-position: center center;
         /* background-size: 200%;    */
     }
+
     @keyframes zoominoutsinglefeatured {
         0% {
-          background-size: 300%;
+            background-size: 300%;
         }
+
         50% {
-          background-size: 350%;
+            background-size: 350%;
         }
-      }
+    }
+
+    .titleCard {
+        font-size: 12px;
+    }
+
+    .discrptionCard {
+        font-size: 10px;
+        color: rgb(163, 163, 163)
+    }
 
 }
-@media only screen and (max-width:470px){
-    .picturesZone{
+
+@media only screen and (max-width:470px) {
+    .picturesZone {
         width: 300px;
     }
+
     #pic1 {
-        width: 280px !important ;
+        width: 280px !important;
         height: 180px !important;
     }
-    #pic2{
-        width: 280px !important ;
+
+    #pic2 {
+        width: 280px !important;
         height: 180px !important;
     }
-    #pic3{
+
+    #pic3 {
         width: 280px !important;
         height: 350px !important;
     }
-    #pic4{
+
+    #pic4 {
         width: 280px !important;
         height: 180px !important;
     }
+
     #pic5 {
         width: 280px !important;
         height: 350px !important;
@@ -295,6 +351,7 @@
         max-width: 90%;
         justify-content: center;
     }
+
     .spaceBetween {
         /* justify-content:baseline; */
         flex-wrap: wrap;
@@ -345,56 +402,88 @@
         height: 400px !important;
         width: 300px !important;
     }
-    .container700{
+
+    .container700 {
         width: 300px;
     }
-    .container500{
+
+    .container500 {
         width: 300px;
         margin: 0px;
     }
-    .footer .containerMenu{
+
+    .footer .containerMenu {
         width: 90%;
         margin-top: 50px;
         margin-bottom: 20px;
-    } 
+    }
+
     .homeCarousel {
-        background-position:center center ;
+        background-position: center center;
         /* background-size: 200%;    */
     }
+
     @keyframes zoominoutsinglefeatured {
         0% {
-          background-size: 150%;
+            background-size: 150%;
         }
+
         50% {
-          background-size: 160%;
+            background-size: 160%;
         }
-      }
-      .backgroundBlack {
+    }
+
+    .backgroundBlack {
         margin-top: 99px;
-      }
-      #carousel0 {
+    }
+
+    #carousel0 {
         background-image: url('../assets/images/16.jpg') !important;
         background-position: 40% 50% !important;
-      }
-      #carousel1 {
+    }
+
+    #carousel1 {
         background-image: url('../assets/images/11.jpg') !important;
-        background-position: 40% 50% !important;  
+        background-position: 40% 50% !important;
     }
-      #carousel2 {
+
+    #carousel2 {
         background-image: url('../assets/images/21.jpg') !important;
-      }
-      #carousel3 {
+    }
+
+    #carousel3 {
         background-image: url('../assets/images/25.jpg') !important;
-        background-position: 40% 50% !important;   
+        background-position: 40% 50% !important;
     }
-    .xlarger  {
-        font-size:48px; 
+
+    .xlarger {
+        font-size: 48px;
     }
+
     .meduim {
-        font-size:18px;
+        font-size: 18px;
     }
+
     .instagramName {
         height: 250px !important;
     }
+
+    .qrMenuVeiw2ZoneText {
+        width: 150px;
+    }
+
+    .titleCard {
+        font-size: 12px;
+    }
+
+    .discrptionCard {
+        font-size: 10px;
+        color: rgb(163, 163, 163)
+    }
+    .cardMenu {
+        width: 40%;
+        margin-right:20px;
+    }
+
 
 }

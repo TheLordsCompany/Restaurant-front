@@ -66,8 +66,8 @@ function Category() {
                 }}
               >
                 <img src={elem.image} alt="" className="cardMenuPic" />
-                <h6>{elem.name}</h6>
-                <p className="small normal">{"test description"}</p>
+                <h6 className="xlarger">{elem.name}</h6>
+                <p className="">{"test description"}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
                   <p>{elem.price}</p>
                   <p>SA</p>
