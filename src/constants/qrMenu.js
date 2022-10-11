@@ -52,7 +52,7 @@ var array= [
       },
       {
        
-        name: "CHEF SALAD (ARABIAN/ROCA)",
+        name: "CHEF SALAD",
         price: "85",
         description: "",
       },
