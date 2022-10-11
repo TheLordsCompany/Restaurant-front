@@ -9,19 +9,19 @@ function Footer() {
       <div className="containerMenu center ">
         <img className="image" src={logo} alt="logo" />
       </div>
-
+      <hr className="line"></hr>
       <div className="center column containerMenu">
         <button
           onClick={() => {
             navigate("/");
           }}
-          className="menu"
+          className="menu black blod"
         >
           HOME
         </button>
 
         <button
-          className="menu"
+          className="menu black blod"
           onClick={() => {
             navigate("/about");
           }}
@@ -33,7 +33,7 @@ function Footer() {
           onClick={() => {
             navigate("/gallery");
           }}
-          className="menu"
+          className="menu black blod"
         >
           GALLERY
         </button>
@@ -42,7 +42,7 @@ function Footer() {
           onClick={() => {
             navigate("/qrmenu");
           }}
-          className="menu"
+          className="menu black blod"
         >
           QR MENU
         </button>
@@ -50,15 +50,16 @@ function Footer() {
           onClick={() => {
             navigate("/contact");
           }}
-          className="menu"
+          className="menu black blod"
         >
           CONTACT
         </button>
       </div>
+      <hr className="line"></hr>
       <div className="column containerMenu center">
-        <p>© 2022 Arfeen Lounge. Powered by Stoners</p>
-        <p>Privacy Policy</p>
-        <p>Terms of use</p>
+        <p className="textCenter blod">© 2022 Arfeen Lounge. Powered by<span className="orange"> Stoners</span></p>
+        <p className="">Privacy Policy</p>
+        <p className="">Terms of use</p>
       </div>
     </div>
   );
