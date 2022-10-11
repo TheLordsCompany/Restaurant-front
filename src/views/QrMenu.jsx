@@ -18,7 +18,7 @@ function QrMenu() {
   }, []);
 
   return (
-    <div  className=''>
+    <div  className='qrmenu'>
       <div className="backgroundBlack white" >
         <div className="flex-container">
           {menu.map((elem, i) => (
@@ -34,18 +34,18 @@ function QrMenu() {
             >
               
               <img
-                src={elem.image}
+                src={process.env.PUBLIC_URL+'/assets/images/'+elem.category+'/'+elem.category+'.jpg'}
                 alt=""
-                className="cardMenuPic"
+                className="menuPic"
                 onLoad={() => setValue(i + 1)}
               />
-              <h6>{elem.name} </h6>
+              <h6>{elem.category} </h6>
             </div>
           ))}
         </div>
         <div className="spaceBetween margin">
           <div className="margin center">
-            <h4>{selected.name}</h4>
+            <h4>{selected.category}</h4>
           </div>
           <div className="margin">
             <GridViewIcon
@@ -70,7 +70,7 @@ function QrMenu() {
           <div className="margin row wrap">
             {subMenu.map((elem, i) => (
               <div className="cardMenu">
-                <img src={elem.image} alt="" className="cardMenuPic" />
+                <img src={process.env.PUBLIC_URL+'/assets/images/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
                 <h6 className="titleCard">{elem.name}</h6>
                 <p className="discrptionCard">{"test description"}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
@@ -94,7 +94,7 @@ function QrMenu() {
                     <p>SA</p>
                   </button>
                 </div>
-                <img src={elem.image} alt="" className="cardMenuPic" />
+                <img src={process.env.PUBLIC_URL+'/assets/images/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
               </div>
             ))}
             </div>
@@ -103,7 +103,7 @@ function QrMenu() {
       </div>
 
       <Header />
-      {value < 4 && <Loading />}
+      {/* {value < 4 && <Loading />} */}
     </div>
   );
 }
