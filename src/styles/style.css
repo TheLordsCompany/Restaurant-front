@@ -93,45 +93,7 @@
   background-repeat: no-repeat;
   color: white;
 }
-.lobster {
-  font-family: "Lobster Two";
-}
-.archivo {
-  font-family: "Archivo", sans-serif;
-}
-.signika {
-  font-family: "Signika", sans-serif;
-}
-.helvetica {
-  font-family: "Helvetica Neue";
-}
-.large {
-  font-size: 36px;
-}
-.larger {
-  font-size: 66px;
-}
-.xlarger {
-  font-size: 90px;
-}
-.meduim {
-  font-size: 18px;
-}
-.small {
-  font-size: 14px;
-}
-.blod {
-  font-weight: 500;
-}
-.bloder {
-  font-weight: 900;
-}
-.normal {
-  font-weight: 400;
-}
-.lighter {
-  font-weight: 100;
-}
+
 .btn {
   width: 100px;
 }
@@ -314,4 +276,5 @@ input {
     color:#ca9c5e;
     background-color:#ca9c5e;
   }
+ 
 

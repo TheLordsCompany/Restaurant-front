@@ -44,33 +44,33 @@ function Contact() {
 
           <div className="Center wrap  ">
             <div className="container500">
-              <p className="lobster bloder large">Contact</p>
+              <p className="newsreader blod large">Contact</p>
               <h6 className="orange">510 Mount Eden Road, Mount Eden, Auckland 1024</h6>
             </div>
             <div className="container300" style={{ marginTop: 40 }}>
-              <h3 className="lobster">T: 09 630 6656</h3>
-              <h3 className="lobster">E: info@indianlounge.co.nz</h3>
+              <h3 className="newsreader semiLarge"><span className="dancing">T:</span> 011 214 0255</h3>
+              <h3 className="newsreader semiLarge"><span className="dancing">E:</span> info@indianlounge.co.nz</h3>
             </div>
           </div>
           <div className="Center row">
             <div className="container500">
-              <h2 className="lobster bloder large">Follow Us</h2>
+              <h2 className="newsreader blod large">Follow Us</h2>
               <h6 className="orange">Facebook</h6>
               <h6 className="orange">Instagram</h6>
               <h6 className="orange">TripAdvisor</h6>
             </div>
             <div className="container300">
-              <h2 className="lobster bloder large">Opening Hours</h2>
+              <h2 className="newsreader blod large">Opening Hours</h2>
               <div className=" wrap ">
                 <div className="margin">
-                  <h4 className="orange">Lunch Time</h4>
-                  <h6>Monday to Sunday</h6>
-                  <h6 className="orange">12.00pm - 3:00pm</h6>
+                  
+                  <h6 className="dancing semiLarge blod">Sunday to Wednesday </h6>
+                  <h6 className="orange">2:00pm - 1:00am</h6>
                 </div>
                 <div className="margin">
-                  <h4 className="orange">Dinner Time</h4>
-                  <h6>Monday to Sunday</h6>
-                  <h6 className="orange ">5.00pm - 10:30pm</h6>
+                  
+                  <h6 className="dancing semiLarge blod">Thursday to Saturday</h6>
+                  <h6 className="orange ">1:30pm - 2:0am</h6>
                 </div>
               </div>
             </div>
