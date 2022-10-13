@@ -103,7 +103,7 @@ function QrMenu() {
       </div>
 
       <Header />
-      {value < 4 && <Loading />}
+      {/* {value < 4 && <Loading />} */}
     </div>
   );
 }
