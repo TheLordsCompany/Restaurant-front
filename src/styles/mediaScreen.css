@@ -135,16 +135,16 @@
         width: 30%;
     }
     .homeCarousel {
-        background-size: 150%;
+        background-size: 230%;
     }
 
     @keyframes zoominoutsinglefeatured {
         0% {
-            background-size: 150%;
+            background-size: 230%;
         }
 
         50% {
-            background-size: 160%;
+            background-size: 240%;
         }
     }
 }
