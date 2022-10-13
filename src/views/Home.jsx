@@ -60,17 +60,17 @@ function Home() {
                 className="homeCarousel"
                 id={`carousel${i}`}
                 
-                onLoad={() => console.log('loading')}
+                onLoad={() => console.log('loading :',i)}
               >
                 <img src={elem.pic} style={{ height: 0, width: 0 }} alt='' />
-                <img src={elem.picMobile} style={{ height: 0, width: 0 }} alt='' onLoad={() => setValue(i + 1)} />
+                <img src={elem.picMobile} style={{ height: 0, width: 0 }} alt='' onLoad={() => setValue(i+1)} />
               </div>
             </Carousel.Item>
           );
         })}
       </Carousel>
 
-      {value < 4 && <Loading />}
+      {value<3  && <Loading />}
       <Header />
     </div>
   );
