@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Router from './router/Router'
 import './styles/style.css'
+import './styles/fonts.css'
 import './App.css'
 import './styles/mediaScreen.css'
 import AOS from 'aos';

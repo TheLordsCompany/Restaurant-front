@@ -118,8 +118,7 @@ function Header(props) {
             >
               QR MENU
             </button>
-            <button className="menu  white signika" style={{ width: 150 }}>
-              ORDER ONLINE
+            <button className="menu  white signika" style={{ width: 150 }} onClick={()=> window.location.assign("https://hungerstation.com/sa-ar/restaurant/afreen/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A7/49828?fbclid=IwAR2ASgmUMyclNalPdE5tFH8dLEzgLMz3fpW_BnU6BmZJnYPGIjQJW3o_VcQ")}>ORDER ONLINE
             </button>
             <img src={iconFacebook} className="icon" alt='' />
             <IoLogoInstagram height={30} />
@@ -227,7 +226,7 @@ function Header(props) {
                 </button>
               </div>
               <div className="center">
-                <button className="menu white signika">ORDER ONLINE</button>
+                <button className="menu white signika" onClick={()=>window.location.assign("https://hungerstation.com/sa-ar/restaurant/afreen/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A7/49828?fbclid=IwAR2ASgmUMyclNalPdE5tFH8dLEzgLMz3fpW_BnU6BmZJnYPGIjQJW3o_VcQ")}>ORDER ONLINE</button>
               </div>
             </Offcanvas.Body>
           </Offcanvas>
