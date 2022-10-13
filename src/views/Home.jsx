@@ -60,10 +60,10 @@ function Home() {
                 className="homeCarousel"
                 id={`carousel${i}`}
                 
-                onLoad={() => setValue(i + 1)}
+                onLoad={() => console.log('loading')}
               >
                 <img src={elem.pic} style={{ height: 0, width: 0 }} alt='' />
-                <img src={elem.picMobile} style={{ height: 0, width: 0 }} alt='' />
+                <img src={elem.picMobile} style={{ height: 0, width: 0 }} alt='' onLoad={() => setValue(i + 1)} />
               </div>
             </Carousel.Item>
           );
