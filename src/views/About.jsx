@@ -25,8 +25,8 @@ function About() {
       <div className="center">
         <div className="container">
           <p className="textCenter orange meduim blod">MORE FLAVOR FOR LESS</p>
-          <h2 className="textCenter lobster xlarger">Good food and</h2>
-          <h2 className="textCenter lobster xlarger"> Great vibes</h2>
+          <h2 className="textCenter comforter xlarger">Good food and</h2>
+          <h2 className="textCenter comforter xlarger"> Great vibes</h2>
         </div>
       </div>
       <div className="Center">
@@ -103,8 +103,8 @@ function About() {
       <div>
         <div className="center">
           <div>
-            <p className="textCenter">FOLLOW ALONG</p>
-            <h2 className="textCenter">@indianlounge</h2>
+            <p className="textCenter ">FOLLOW ALONG</p>
+            <h2 className="textCenter dancing blod larger">@afreenlounge</h2>
           </div>
         </div>
         <div className="">

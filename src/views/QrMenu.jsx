@@ -39,13 +39,13 @@ function QrMenu() {
                 className="menuPic"
                 onLoad={() => setValue(i + 1)}
               />
-              <h6>{elem.category} </h6>
+              <h6  className="newsreader">{elem.category} </h6>
             </div>
           ))}
         </div>
         <div className="spaceBetween margin">
           <div className="margin center">
-            <h4>{selected.category}</h4>
+            <h4 className="newsreader">{selected.category}</h4>
           </div>
           <div className="margin">
             <GridViewIcon
@@ -71,8 +71,8 @@ function QrMenu() {
             {subMenu.map((elem, i) => (
               <div className="cardMenu">
                 <img src={process.env.PUBLIC_URL+'/assets/images/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
-                <h6 className="titleCard">{elem.name}</h6>
-                <p className="discrptionCard">{"test description"}</p>
+                <h6 className="titleCard newsreader">{elem.name}</h6>
+                <p className="discrptionCard dancing">{"test description"}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
                   <p>{elem.price}</p>
                   <p>SA</p>
@@ -87,8 +87,8 @@ function QrMenu() {
             {subMenu.map((elem, i) => (
               <div className="spaceBetween margin "   >
                 <div className="qrMenuVeiw2ZoneText">
-                  <h6  className="titleCard">{elem.name}</h6>
-                  <p className="discrptionCard">{"test description"}</p>
+                  <h6  className="titleCard newsreader">{elem.name}</h6>
+                  <p className="discrptionCard dancing">{"test description"}</p>
                   <button className="cardMenuPrice textCenter spaceBetween white">
                     <p>{elem.price}</p>
                     <p>SA</p>
