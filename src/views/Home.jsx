@@ -11,8 +11,6 @@ import picMobile3 from '../assets/images/11.jpg'
 import picMobile4 from '../assets/images/16.jpg'
 import Loading from "../components/Loading";
 
-
-
 let array = [
   {
     pic: pic1,
@@ -30,36 +28,29 @@ let array = [
     pic: pic4,
     picMobile: picMobile4
   }
-
 ];
+
 function Home() {
   const [value, setValue] = useState(0);
-  // const [bool, setBool] = useState(false);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   console.log(value);
   return (
     <div>
-
       <Carousel
-
         indicators={false}
         controls={false}
         interval={4000}
         fade={true}
-
       >
-
         {array.map((elem, i) => {
-
           return (
             <Carousel.Item key={i}>
               <Header />
               <div
                 className="homeCarousel"
                 id={`carousel${i}`}
-                
                 onLoad={() => console.log('loading :',i)}
               >
                 <img src={elem.pic} style={{ height: 0, width: 0 }} alt='' />
@@ -69,7 +60,6 @@ function Home() {
           );
         })}
       </Carousel>
-
       {value<3  && <Loading />}
       <Header />
     </div>
