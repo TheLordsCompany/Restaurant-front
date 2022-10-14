@@ -1,109 +1,112 @@
-module.exports=[
+
+
+
+
+var array= [
   {
     id: 1,
-    image: "",
-    name: "SOUP",
+    category: "SOUP",
     elems: [
       {
-        image: "",
+
         name: "CHICKEN CORN SOUP",
-        price: "",
-        description: "",
+        price: "85",
+        description: 'test description',
       },
       {
-        image: "",
+        
         name: "MUSHROOM SOUP",
-        price: "",
-        description: "",
+        price: "85",
+        description: 'test description',
       },
       {
-        image: "",
+        
         name: "FRENCH ONION SOUP",
-        price: "",
-        description: "",
+        price: "85",
+        description: 'test description',
       },
     ],
   },
   {
     id: 2,
-    image: "",
-    name: "SALAD",
+   
+    category: "SALAD",
     elems: [
       {
-        image: "",
+        
         name: "CEASER SALAD",
-        price: "",
+        price: "85",
         description: "",
       },
       {
-        image: "",
+        
         name: "QUINUA SALAD",
-        price: "",
+        price: "85",
         description: "",
       },
       {
-        image: "",
+        
         name: "FRIED PRAWN SALAD",
-        price: "",
+        price: "85",
         description: "",
       },
       {
-        image: "",
-        name: "CHEF SALAD (ARABIAN/ROCA)",
-        price: "",
+       
+        name: "CHEF SALAD",
+        price: "85",
         description: "",
       },
     ],
   },
   {
     id: 3,
-    image: "",
-    name: "APPETIZERS",
+   
+    category: "APPETIZERS",
     elems: [
       {
-        image: "",
+        
         name: "SAMBOSA",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "DYNAMITE SHRIMP",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "CHICKEN CHEESE ROLL",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "RISOTTA BALL",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "LOOSE PRAWN",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "DRAGON CHICKEN",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "MAJISTICK CHICKEN",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "BREADED FISH CAKE",
         price: "",
         description: "",
@@ -112,17 +115,17 @@ module.exports=[
   },
   {
     id: 4,
-    image: "",
-    name: "SANDWICHES",
+    
+    category: "SANDWICHES",
     elems: [
       {
-        image: "",
+        
         name: "CLUB SANDWICH",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "CHICKEN TIKKA ROLL",
         price: "",
         description: "",
@@ -131,22 +134,22 @@ module.exports=[
   },
   {
     id: 5,
-    image: "",
-    name: "INTERNATIONAL MAIN COURSE",
+   
+    category: "INTERNATIONAL MAIN COURSE",
     elems: [
       {
-        image: "",
+        
         name: "SALMON (LEMON/PLAIN",
         price: "",
         description: "",
       },
       {
-        image: "",
+        
         name: "MONGOLIAN CHICKEN",
         price: "",
         description: "",
       },  {
-        image: "",
+        
         name: "PASTA(FETTOCHINO/PENNE/SPAGETTI",
         price: "",
         description: ""
@@ -155,37 +158,37 @@ module.exports=[
   },
   {
     id: 6,
-    image: "",
-    name: "INDIAN MAIN COURSE",
+   
+    category: "INDIAN MAIN COURSE",
     elems: [
       {
-        image: "",
+        
         name: "BIRYANI(PLAIN/CHICKEN/MUTTON)        ",
         price: "",
         description: ""
       },
       {
-        image: "",
+        
         name: "BUTTER CHICKEN",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "CHICKEN TIKKA MASALA",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "CHOP MASALA",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "PRAWN TAWA MASALA",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "CHEF SPECIAL (SAT-FRI)",
         price: "",
         description: ""
@@ -193,27 +196,27 @@ module.exports=[
     ],
   },{
     id: 7,
-    image: "",
-    name: "TANDOOR SPECIAL(GRILL WITH LOVE)",
+   
+    category: "TANDOOR SPECIAL(GRILL WITH LOVE)",
     elems: [
       {
-        image: "",
+        
         name: "CHICKEN TIKKA",
         price: "",
         description: ""
       },
       {
-        image: "",
+        
         name: "MUTTON SEEKH",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "KING PRAWN",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "MIX GRILL",
         price: "",
         description: ""
@@ -221,27 +224,27 @@ module.exports=[
     ]
   },{
     id: 8,
-    image: "",
-    name: "BREAD",
+   
+    category: "BREAD",
     elems: [
       {
-        image: "",
+        
         name: "PLAIN NAAN",
         price: "",
         description: ""
       },
       {
-        image: "",
+        
         name: "BUTTER NAAN",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "GARLIC NAAN",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "ASSORTED ROTU/NAAN",
         price: "",
         description: ""
@@ -249,37 +252,37 @@ module.exports=[
     ]
   },{
     id: 9,
-    image: "",
-    name: "HOT DRINKS",
+   
+    category: "HOT DRINKS",
     elems: [
       {
-        image: "",
+        
         name: "FLAT WHITE",
         price: "",
         description: ""
       },
       {
-        image: "",
+        
         name: "TURKISH COFFE",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "CAFE LATE",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "SPANICH LATE (HOT/COLD)",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "TEA (HIGH TEA)",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "CAFE AMERICANO",
         price: "",
         description: ""
@@ -287,42 +290,42 @@ module.exports=[
     ]
   },{
     id: 10,
-    image: "",
-    name: "COLD DRINKS",
+   
+    category: "COLD DRINKS",
     elems: [
       {
-        image: "",
+        
         name: "ICE TEAN",
         price: "",
         description: ""
       },
       {
-        image: "",
+        
         name: "SANGRIA",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "THAIME UP",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "I GOT HOT SAUCE",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "BLUE WHALE",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "GREEN GOBLIN",
         price: "",
         description: ""
       },{
-        image: "",
+        
         name: "BUBBLE GUM",
         price: "",
         description: ""
@@ -330,3 +333,4 @@ module.exports=[
     ]
   }
 ];
+export default array

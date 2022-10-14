@@ -1,32 +1,78 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
+import Header from "../layout/Header";
+import pic1 from '../assets/images/1.jpg'
+import pic2 from '../assets/images/3.jpg'
+import pic3 from '../assets/images/27.jpg'
+import pic4 from '../assets/images/29.jpg'
+import picMobile1 from '../assets/images/25.jpg'
+import picMobile2 from '../assets/images/21.jpg'
+import picMobile3 from '../assets/images/11.jpg'
+import picMobile4 from '../assets/images/16.jpg'
+import Loading from "../components/Loading";
 
-let array=[
-  "https://res.cloudinary.com/dova8kprm/image/upload/v1665144632/ir3jtmcoonw2ce0omlzg.jpg?fbclid=IwAR1XFo29oTwQCjdg5hqXN2rvGiIoGjHQGkdtwoCufzFm7szNxb5_G8CENhQ",
-  "https://res.cloudinary.com/dova8kprm/image/upload/v1665141708/sff7ytcwvstop6w59net.jpg?fbclid=IwAR0flM-wG-hyXzRttotY3CCNbDza57NQ2A57RCioZ90g0n857s5yfJ4MXQ4",
-  "https://res.cloudinary.com/dova8kprm/image/upload/v1665141855/wvafjjvfy8th7dpwgyli.jpg?fbclid=IwAR3mTFbMuEfk_qtyoSjI0IEZPc4SGHUx_niX63RU-RSngtu27tZ4QT0kIPM",
-  "https://res.cloudinary.com/dova8kprm/image/upload/v1665141971/jnzvt9sqsgvdanngmig8.jpg?fbclid=IwAR1p8lMz5kbS_BXjE3vhhvYpHPIER1GS-xiK1uMKCqFCRKOK0xlrwHSuFrc"
-]
+
+
+let array = [
+  {
+    pic: pic1,
+    picMobile: picMobile1
+  },
+  {
+    pic: pic2,
+    picMobile: picMobile2
+  },
+  {
+    pic: pic3,
+    picMobile: picMobile3
+  },
+  {
+    pic: pic4,
+    picMobile: picMobile4
+  }
+
+];
 function Home() {
-  useEffect(()=>{
+  const [value, setValue] = useState(0);
+  // const [bool, setBool] = useState(false);
+  useEffect(() => {
     window.scrollTo(0, 0);
-  },[])
+  }, []);
+  console.log(value);
   return (
     <div>
+
       <Carousel
-        pause={false}
+
         indicators={false}
         controls={false}
         interval={7000}
         fade={true}
-      >
-        {array.map((elem,i)=>(
 
-        <Carousel.Item key={i} >
-          <div className="homeCarousel"  style={{backgroundImage:`url(${elem})`}}></div>
-        </Carousel.Item>
-        ))}
-        </Carousel>
+
+      >
+
+        {array.map((elem, i) => {
+
+          return (
+            <Carousel.Item key={i}>
+              <Header />
+              <div
+                className="homeCarousel"
+                id={`carousel${i}`}
+                
+                onLoad={() => console.log('loading :',i)}
+              >
+                <img src={elem.pic} style={{ height: 0, width: 0 }} alt='' />
+                <img src={elem.picMobile} style={{ height: 0, width: 0 }} alt='' onLoad={() => setValue(i+1)} />
+              </div>
+            </Carousel.Item>
+          );
+        })}
+      </Carousel>
+
+      {value<3  && <Loading />}
+      <Header />
     </div>
   );
 }

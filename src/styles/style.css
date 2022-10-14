@@ -93,45 +93,7 @@
   background-repeat: no-repeat;
   color: white;
 }
-.lobster {
-  font-family: "Lobster Two";
-}
-.archivo {
-  font-family: "Archivo", sans-serif;
-}
-.signika {
-  font-family: "Signika", sans-serif;
-}
-.helvetica {
-  font-family: "Helvetica Neue";
-}
-.large {
-  font-size: 36px;
-}
-.larger {
-  font-size: 66px;
-}
-.xlarger {
-  font-size: 90px;
-}
-.meduim {
-  font-size: 18px;
-}
-.small {
-  font-size: 14px;
-}
-.blod {
-  font-weight: 500;
-}
-.bloder {
-  font-weight: 900;
-}
-.normal {
-  font-weight: 400;
-}
-.lighter {
-  font-weight: 100;
-}
+
 .btn {
   width: 100px;
 }
@@ -182,6 +144,9 @@ input {
   height: 550px;
   width: 100%;
 }
+.black{
+  color: black;
+}
 .white {
   color: white;
 }
@@ -203,17 +168,114 @@ input {
   
   width: 100%;
   height: 100vh;
-  border: 1px solid black;
-  background-size: 100%;
+  background-size: 250%;
   background-position: center center;
   background-repeat: no-repeat;
   animation: zoominoutsinglefeatured 10s ease-in;
 }
 @keyframes zoominoutsinglefeatured {
   0% {
-    background-size: 100%;
+    background-size: 250%;
   }
   50% {
-    background-size: 110%;
+    background-size: 260%;
   }
 }
+#carousel0 {
+  background-image: url('../assets/images/1.jpg');
+  background-position: 40% 50% ;
+}
+
+#carousel1 {
+  background-image: url('../assets/images/3.jpg') ;
+  background-position: 40% 50% ;
+}
+
+#carousel2 {
+  background-image: url('../assets/images/27.jpg') ;
+}
+
+#carousel3 {
+  background-image: url('../assets/images/29.jpg') ;
+  background-position: 40% 50% ;
+}
+.loading{
+    position: fixed;
+    background-color: aliceblue;
+    font-size: 100px;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+}
+.onLoadPic {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+.menuPic {
+  border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.cardMenu {
+    height: 250px;
+    width: 45%;
+    margin:10px;
+}
+.cardMenuPic {
+    border-radius: 10px;
+    height: 100px;
+    width: 150px;
+    
+}
+.cardMenuPrice {
+    border-radius: 10px;
+    background-color: rgb(186, 186, 186);
+    min-width: 60px;
+    height: 30px;
+    border: none;
+
+}
+.qrmenu {
+  background-color: black;
+  height: 100vh;
+}
+.backgroundBlack{
+    background-color: black;
+    margin-top: 145px;
+    /* height: 100vh; */
+}
+
+.popupPic {
+    height: 300px;
+}
+.carouselQrMenu {
+    height: 300px;
+    width: 300px;
+}
+.flex-container {
+    overflow-x: auto;
+    
+    padding-bottom: 17px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-container::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: rgb(0, 0, 0); 
+   
+  }
+  .flex-container::-webkit-scrollbar-thumb {
+    background: rgb(70, 70, 70);
+    border-radius: 10px;
+  }
+  .line {
+    height:200px;
+    width: 0.1em;
+    border-width:0;
+    color:#ca9c5e;
+    background-color:#ca9c5e;
+  }
+ 
+

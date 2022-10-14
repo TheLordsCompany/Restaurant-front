@@ -15,7 +15,7 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Main />}>
+        <Route path="*" element={<Main />}>
           <Route index element={<Home />} />    
           <Route path="about" element={<About />} />
           <Route path="menu" element={<Menu />} />
