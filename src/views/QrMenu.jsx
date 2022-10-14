@@ -1,48 +1,110 @@
-import React from "react";
-import * as menu from "../constants/qrMenu";
-import { useNavigate } from 'react-router-dom'
+import React, { useEffect, useState } from "react";
+import menu from "../constants/qrMenu";
+
+import Header from "../layout/Header";
+import Loading from "../components/Loading";
+import GridViewIcon from "@mui/icons-material/GridView";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function QrMenu() {
-  const nav = useNavigate();
-  console.log(menu);
+  const [value, setValue] = useState(0);
+  const [selected, setSelected] = useState(menu[0]);
+  const [subMenu, setSubMenu] = useState(menu[0].elems);
+  const [view, setView] = useState(1);
+  const [index,setIndex]=useState(0)
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-
-
-    <div >
-      <div  className='center headerPage' style={{ backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-16-min-scaled.jpg")' }}>
-        <div className='headerOpacity center'>
-          <h1 className='signika xlarger' >QR Menu</h1>
-        </div>
-      </div>
-      <div className='center'>
-      <div className='container spaceBetween'>
-        <div className='container500'>
-          <h2 className='archivo blod orange'>Catergories name</h2>
+    <div  className='qrmenu'>
+      <div className="backgroundBlack white" >
+        <div className="flex-container">
           {menu.map((elem, i) => (
-            <div key={i} elem={elem} onClick={() => {
-              nav("/category", { state:elem});
-             }} >{elem.name}</div>
+            <div
+              className=" pointer margin"
+              key={i}
+              onClick={() => {
+                setSelected(elem);
+                setSubMenu(elem.elems);
+                setIndex(i)
+              }}
+              style={{opacity:index===i?1:0.5}}
+            >
+              
+              <img
+                src={process.env.PUBLIC_URL+'/assets/images/'+elem.category+'/'+elem.category+'.jpg'}
+                alt=""
+                className="menuPic"
+                onLoad={() => setValue(i + 1)}
+              />
+              <h6  className="newsreader">{elem.category} </h6>
+            </div>
           ))}
-         
-   
         </div>
+        <div className="spaceBetween margin">
+          <div className="margin center">
+            <h4 className="newsreader">{selected.category}</h4>
+          </div>
+          <div className="margin">
+            <GridViewIcon
+              color="white"
+              sx={{
+                height: 30,
+                width: 30,
+                margin: "10px",
+                opacity: view === 1 ? 1 : 0.5,
+              }}
+              onClick={() => setView(1)}
+            />
+
+            <GiHamburgerMenu
+              size={30}
+              onClick={() => setView(2)}
+              style={{ opacity: view === 2 ? 1 : 0.5 }}
+            />
+          </div>
+        </div>
+        {view === 1 && (
+          <div className="margin row wrap">
+            {subMenu.map((elem, i) => (
+              <div className="cardMenu">
+                <img src={process.env.PUBLIC_URL+'/assets/images/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
+                <h6 className="titleCard newsreader">{elem.name}</h6>
+                <p className="discrptionCard dancing">{"test description"}</p>
+                <button className="cardMenuPrice textCenter spaceBetween white">
+                  <p>{elem.price}</p>
+                  <p>SA</p>
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+        {view === 2 && (
+          <div className=" margin center">
+            <div style={{width:'90%'}}>
+            {subMenu.map((elem, i) => (
+              <div className="spaceBetween margin "   >
+                <div className="qrMenuVeiw2ZoneText">
+                  <h6  className="titleCard newsreader">{elem.name}</h6>
+                  <p className="discrptionCard dancing">{"test description"}</p>
+                  <button className="cardMenuPrice textCenter spaceBetween white">
+                    <p>{elem.price}</p>
+                    <p>SA</p>
+                  </button>
+                </div>
+                <img src={process.env.PUBLIC_URL+'/assets/images/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
+              </div>
+            ))}
+            </div>
+          </div>
+        )}
       </div>
-      </div>
+
+      <Header />
+      {/* {value < 4 && <Loading />} */}
     </div>
-
-
-
-
-
-
-
-    // <div>
-    //   {menu.map((category, index) => {
-    //     <div key={category.id}>
-    //       {menu.name}hahaha
-    //     </div>;
-    //   })}
-    // </div>
   );
 }
 

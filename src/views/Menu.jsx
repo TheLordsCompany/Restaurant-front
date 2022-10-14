@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import MenuElement from '../components/MenuElement'
 import quickNibbles from '../constants/quickNibbles'
 import snacksAndLitesVeg from '../constants/snacksAndLitesVeg'
@@ -10,16 +10,24 @@ import mainsNonVeg from '../constants/mainsNonVeg'
 import mainsSeafoud from '../constants/mainsSeafoud'
 import mainsVegetarian from '../constants/mainsVegetarian'
 import naanBreads from '../constants/naanBreads'
+import Header from "../layout/Header";
 
 
 function Menu() {
+  const [value, setValue] = useState(0);
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   return (
     <div >
+      
       <div  className='center headerPage' style={{ backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-16-min-scaled.jpg")' }}>
         <div className='headerOpacity center'>
           <h1 className='signika xlarger' >Our Menu</h1>
         </div>
       </div>
+      <img src='https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-16-min-scaled.jpg' onLoad={()=>setValue(5)} alt='' className='onLoadPic'/>
+
       <div className='center'>
       <div className='container spaceBetween'>
         <div className='container500'>
@@ -68,6 +76,12 @@ function Menu() {
         </div>
       </div>
       </div>
+      {value < 4 && (
+        <div className="loading center">
+          <h1>Loading</h1>
+        </div>
+      )}
+      <Header />
     </div>
   )
 }
