@@ -104,7 +104,7 @@ function About() {
         <div className="center">
           <div>
             <p className="textCenter ">FOLLOW ALONG</p>
-            <h2 className="textCenter dancing blod larger">@afreenlounge</h2>
+            <h2 className="textCenter dancing blod larger pointer" onClick={()=>window.location.assign("https://www.instagram.com/afreencafe/")}>@afreenlounge</h2>
           </div>
         </div>
         <div className="">

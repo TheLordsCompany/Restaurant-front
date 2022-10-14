@@ -12,7 +12,7 @@ function Gallery() {
       <div className='Center instagramName' style={{height:400,alignItems:'end'}} >
         <div data-aos="flip-left" data-aos-duration="1700">
           <p className='orange meduim bold textCenter'>FOLLOW ALONG</p>
-          <p className='lobster xlarger bolder' style={{marginTop:10}}>
+          <p className='lobster xlarger bolder pointer' style={{marginTop:10}} onClick={()=>window.location.assign("https://www.instagram.com/afreencafe/")}>
             @afreenlounge
           </p>
         </div>

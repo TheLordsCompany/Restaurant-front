@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import iconFacebook from "../assets/images/Icon FB.svg";
+// import iconFacebook from "../assets/images/Icon FB.svg";
 import { IoLogoInstagram } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../Afreen_logo_inverted.png";
@@ -120,8 +120,8 @@ function Header(props) {
             </button>
             <button className="menu  white signika" style={{ width: 150 }} onClick={()=> window.location.assign("https://hungerstation.com/sa-ar/restaurant/afreen/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A7/49828?fbclid=IwAR2ASgmUMyclNalPdE5tFH8dLEzgLMz3fpW_BnU6BmZJnYPGIjQJW3o_VcQ")}>ORDER ONLINE
             </button>
-            <img src={iconFacebook} className="icon" alt='' />
-            <IoLogoInstagram height={30} />
+            {/* <img src={iconFacebook} className="icon" alt='' /> */}
+            <IoLogoInstagram size={30} className='pointer' onClick={()=>window.location.assign("https://www.instagram.com/afreencafe/")} />
           </div>
           <div className="image center ">
             <button

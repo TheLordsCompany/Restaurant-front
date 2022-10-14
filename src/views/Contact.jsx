@@ -116,7 +116,7 @@ function Contact() {
               <label>
                 YOUR MESSAGE (OPTIONAL)
               </label>
-              <input
+              <textarea
                 className="message"
                 type="p"
                 name="message"
@@ -124,7 +124,8 @@ function Contact() {
                 onChange={handleChange}
               />
 
-              <input className='order menu btn' type="submit" value="Submit" onClick={onSubmit} />
+              <button className='order margin btn' type="submit" onClick={onSubmit} >
+                Submit</button>
             </form>
           </div>
         </div>
