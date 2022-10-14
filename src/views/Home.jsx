@@ -17,12 +17,13 @@ function Home() {
         pause={false}
         indicators={false}
         controls={false}
-        interval={4000}
+        interval={7000}
+        fade={true}
       >
         {array.map((elem,i)=>(
 
-        <Carousel.Item key={i}>
-          <div className="homeCarousel" style={{backgroundImage:`url(${elem})`}}></div>
+        <Carousel.Item key={i} >
+          <div className="homeCarousel"  style={{backgroundImage:`url(${elem})`}}></div>
         </Carousel.Item>
         ))}
         </Carousel>
