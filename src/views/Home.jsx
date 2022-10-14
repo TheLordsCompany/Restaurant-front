@@ -46,8 +46,9 @@ function Home() {
 
         indicators={false}
         controls={false}
-        interval={4000}
+        interval={7000}
         fade={true}
+
 
       >
 
