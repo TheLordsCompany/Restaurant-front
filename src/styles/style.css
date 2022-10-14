@@ -102,6 +102,11 @@ input {
   border-radius: 5px;
   border: 1px solid;
 }
+textarea {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid;
+}
 .message {
   height: 80px;
 }
@@ -182,27 +187,27 @@ input {
   }
 }
 #carousel0 {
-  background-image: url('../../public/assets/images/more470/023.jpg');
+  background-image: url('../assets/images/more470/023.jpg');
   background-position: 50% 50% ;
 }
 
 #carousel1 {
-  background-image: url('../../public/assets/images/more470/015.jpg') ;
+  background-image: url('../assets/images/more470/015.jpg') ;
   background-position: 40% 50% ;
 }
 
 #carousel2 {
-  background-image: url('../../public/assets/images/more470/051.jpg') ;
+  background-image: url('../assets/images/more470/051.jpg') ;
   background-position: 60% 50% ;
 }
 
 #carousel3 {
-  background-image: url('../../public/assets/images/more470/017.jpg') ;
+  background-image: url('../assets/images/more470/017.jpg') ;
   background-position: 60% 50% ;
 }
 .loading{
     position: fixed;
-    background-color: aliceblue;
+    background-color: rgb(184, 184, 184);
     font-size: 100px;
     height: 100vh;
     width: 100%;
