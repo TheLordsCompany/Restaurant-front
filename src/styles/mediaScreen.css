@@ -13,6 +13,8 @@
 
     .rightHeader .image {
         visibility: hidden;
+        height: 0px;
+        width: 0px;
     }
 
     .headerPage {
@@ -345,21 +347,21 @@
     }
 
     #carousel0 {
-        background-image: url('../../public/assets/images/less470/004.jpg') !important;
+        background-image: url('../assets/images/less470/004.jpg') !important;
         background-position: 40% 50% !important;
     }
 
     #carousel1 {
-        background-image: url('../../public/assets/images/less470/010.jpg') !important;
+        background-image: url('../assets/images/less470/010.jpg') !important;
         background-position: 40% 50% !important;
     }
 
     #carousel2 {
-        background-image: url('../../public/assets/images/less470/022.jpg') !important;
+        background-image: url('../assets/images/less470/022.jpg') !important;
     }
 
     #carousel3 {
-        background-image: url('../../public/assets/images/less470/048.jpg') !important;
+        background-image: url('../assets/images/less470/048.jpg') !important;
         background-position: 40% 50% !important;
     }
 }

@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 import Header from "../layout/Header";
-import pic1 from '../assets/images/1.jpg'
-import pic2 from '../assets/images/3.jpg'
-import pic3 from '../assets/images/27.jpg'
-import pic4 from '../assets/images/29.jpg'
-import picMobile1 from '../assets/images/25.jpg'
-import picMobile2 from '../assets/images/21.jpg'
-import picMobile3 from '../assets/images/11.jpg'
-import picMobile4 from '../assets/images/16.jpg'
+import pic1 from '../assets/images/more470/023.jpg'
+import pic2 from '../assets/images/more470/015.jpg'
+import pic3 from '../assets/images/more470/051.jpg'
+import pic4 from '../assets/images/more470/017.jpg'
+import picMobile1 from '../assets/images/less470/004.jpg'
+import picMobile2 from '../assets/images/less470/010.jpg'
+import picMobile3 from '../assets/images/less470/022.jpg'
+import picMobile4 from '../assets/images/less470/048.jpg'
 import Loading from "../components/Loading";
 
 let array = [
