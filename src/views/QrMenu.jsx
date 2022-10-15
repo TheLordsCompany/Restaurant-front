@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import menu from "../constants/qrMenu";
 
 import Header from "../layout/Header";
-import Loading from "../components/Loading";
+// import Loading from "../components/Loading";
 import GridViewIcon from "@mui/icons-material/GridView";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -12,7 +12,7 @@ function QrMenu() {
   const [subMenu, setSubMenu] = useState(menu[0].elems);
   const [view, setView] = useState(1);
   const [index,setIndex]=useState(0)
-
+  console.log(value);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -34,7 +34,7 @@ function QrMenu() {
             >
               
               <img
-                src={process.env.PUBLIC_URL+'/assets/images/'+elem.category+'/'+elem.category+'.jpg'}
+                src={process.env.PUBLIC_URL+'/assets/images/qrmenu/'+elem.category+'/'+elem.category+'.jpg'}
                 alt=""
                 className="menuPic"
                 onLoad={() => setValue(i + 1)}
@@ -70,7 +70,7 @@ function QrMenu() {
           <div className="margin row wrap">
             {subMenu.map((elem, i) => (
               <div className="cardMenu">
-                <img src={process.env.PUBLIC_URL+'/assets/images/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
+                <img src={process.env.PUBLIC_URL+'/assets/images/qrmenu/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
                 <h6 className="titleCard newsreader">{elem.name}</h6>
                 <p className="discrptionCard dancing">{"test description"}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
@@ -94,7 +94,7 @@ function QrMenu() {
                     <p>SA</p>
                   </button>
                 </div>
-                <img src={process.env.PUBLIC_URL+'/assets/images/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
+                <img src={process.env.PUBLIC_URL+'/assets/images/qrmenu/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
               </div>
             ))}
             </div>
