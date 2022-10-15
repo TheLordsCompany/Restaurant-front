@@ -43,15 +43,15 @@ function About() {
             </div>
             <div className="container500">
               <p className="meduim blod">
-                Indian Lounge is brought to you with a vision to share the
-                culture,passion, and flavours of the Indian Cuisine. We draw
-                influences from major food regions across the Indian
-                subcontinent. The Traditional recipes used are fine tuned to the
-                tastes of the 21st century, to tantalise your taste busds. A
-                great meal also comes with great service, ambience and of course
-                the company. At Indian Lounge we pride on Quality service and
+                Afreen Lounge is brought to you with a vision to share the
+                culture, passion, and the variety of flavors. We draw
+                influences from major food regions across the world. 
+                The Traditional recipes used are fine tuned to the
+                tastes of the 21st century, to tantalise your taste buds. A
+                great meal also comes with a great service, ambience and, of course,
+                the company. At Afreen Lounge we pride on Quality service and
                 Quality food. It is our honour to welcome you to experience the
-                warm hospitality and the flavours of India.{" "}
+                warm hospitality .
               </p>
               <p className="meduim blod">
                 We offer home delivery and takeaway, order your{" "}
