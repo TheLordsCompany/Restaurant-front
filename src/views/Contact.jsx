@@ -45,19 +45,19 @@ function Contact() {
           <div className="Center wrap  ">
             <div className="container500">
               <p className="newsreader blod large">Contact</p>
-              <h6 className="orange">510 Mount Eden Road, Mount Eden, Auckland 1024</h6>
+              <h6 className="orange">King Salman Bin Abdulaziz Rd, Al Malqa, Riyadh 13524</h6>
             </div>
             <div className="container300" style={{ marginTop: 40 }}>
               <h3 className="newsreader semiLarge"><span className="dancing">T:</span> 011 214 0255</h3>
-              <h3 className="newsreader semiLarge"><span className="dancing">E:</span> info@indianlounge.co.nz</h3>
+              <h3 className="newsreader semiLarge"><span className="dancing">E:</span> info@afreenlounge.com </h3>
             </div>
           </div>
           <div className="Center row">
             <div className="container500">
               <h2 className="newsreader blod large">Follow Us</h2>
-              <h6 className="orange">Facebook</h6>
-              <h6 className="orange">Instagram</h6>
-              <h6 className="orange">TripAdvisor</h6>
+              
+              <h6 className="orange pointer" onClick={()=>window.location.assign("https://www.instagram.com/afreencafe/")}>Instagram</h6>
+              
             </div>
             <div className="container300">
               <h2 className="newsreader blod large">Opening Hours</h2>
@@ -116,7 +116,7 @@ function Contact() {
               <label>
                 YOUR MESSAGE (OPTIONAL)
               </label>
-              <input
+              <textarea
                 className="message"
                 type="p"
                 name="message"
@@ -124,7 +124,8 @@ function Contact() {
                 onChange={handleChange}
               />
 
-              <input className='order menu btn' type="submit" value="Submit" onClick={onSubmit} />
+              <button className='order margin btn' type="submit" onClick={onSubmit} >
+                Submit</button>
             </form>
           </div>
         </div>

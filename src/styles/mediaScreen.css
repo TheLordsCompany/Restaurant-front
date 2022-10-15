@@ -13,6 +13,8 @@
 
     .rightHeader .image {
         visibility: hidden;
+        height: 0px;
+        width: 0px;
     }
 
     .headerPage {
@@ -25,16 +27,21 @@
     }
 
     .homeCarousel {
-        background-size: 120%;
+        background-size: 110%;
+
+    }
+
+    #carousel3 {
+        background-position: 50% 90% !important;
     }
 
     @keyframes zoominoutsinglefeatured {
         0% {
-            background-size: 120%;
+            background-size: 110%;
         }
 
         50% {
-            background-size: 130%;
+            background-size: 120%;
         }
     }
 
@@ -134,17 +141,18 @@
     .cardMenu {
         width: 30%;
     }
+
     .homeCarousel {
-        background-size: 230%;
+        background-size: 220%;
     }
 
     @keyframes zoominoutsinglefeatured {
         0% {
-            background-size: 230%;
+            background-size: 220%;
         }
 
         50% {
-            background-size: 240%;
+            background-size: 230%;
         }
     }
 }
@@ -285,8 +293,9 @@
         font-size: 10px;
         color: rgb(163, 163, 163)
     }
+
     .line {
-        height:0.1em;
+        height: 0.1em;
         width: 300px;
     }
 
@@ -338,21 +347,21 @@
     }
 
     #carousel0 {
-        background-image: url('../assets/images/16.jpg') !important;
+        background-image: url('../assets/images/less470/004.jpg') !important;
         background-position: 40% 50% !important;
     }
 
     #carousel1 {
-        background-image: url('../assets/images/11.jpg') !important;
+        background-image: url('../assets/images/less470/010.jpg') !important;
         background-position: 40% 50% !important;
     }
 
     #carousel2 {
-        background-image: url('../assets/images/21.jpg') !important;
+        background-image: url('../assets/images/less470/022.jpg') !important;
     }
 
     #carousel3 {
-        background-image: url('../assets/images/25.jpg') !important;
+        background-image: url('../assets/images/less470/048.jpg') !important;
         background-position: 40% 50% !important;
     }
 }
@@ -456,6 +465,7 @@
         margin-top: 50px;
         margin-bottom: 20px;
     }
+
     .xlarger {
         font-size: 48px;
     }
@@ -485,11 +495,13 @@
         width: 40%;
         margin-right: 20px;
     }
-    .backgroundBlack{
+
+    .backgroundBlack {
         margin-top: 100px;
     }
+
     .line {
-        height:0.1em;
+        height: 0.1em;
         width: 200px;
     }
 
