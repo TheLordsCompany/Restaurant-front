@@ -139,7 +139,7 @@ var array= [
     elems: [
       {
         
-        name: "SALMON (LEMON/PLAIN",
+        name: "SALMON LEMON PLAIN",
         price: "",
         description: "",
       },
@@ -197,7 +197,7 @@ var array= [
   },{
     id: 7,
    
-    category: "TANDOOR SPECIAL(GRILL WITH LOVE)",
+    category: "TANDOOR SPECIAL GRILL WITH LOVE",
     elems: [
       {
         
@@ -245,7 +245,7 @@ var array= [
         description: ""
       },{
         
-        name: "ASSORTED ROTU/NAAN",
+        name: "ASSORTED ROTU NAAN",
         price: "",
         description: ""
       }
@@ -273,12 +273,17 @@ var array= [
         description: ""
       },{
         
-        name: "SPANICH LATE (HOT/COLD)",
+        name: "SPANICH LATE",
+        price: "",
+        description: ""
+      },{
+      
+        name: "GREEN TEA KETTLE",
         price: "",
         description: ""
       },{
         
-        name: "TEA (HIGH TEA)",
+        name: "RED TEA KETTLE",
         price: "",
         description: ""
       },{
@@ -294,7 +299,6 @@ var array= [
     category: "COLD DRINKS",
     elems: [
       {
-        
         name: "ICE TEAN",
         price: "",
         description: ""
