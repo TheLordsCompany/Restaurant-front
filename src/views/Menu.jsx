@@ -23,7 +23,7 @@ function Menu() {
       
       <div  className='center headerPage' style={{ backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-16-min-scaled.jpg")' }}>
         <div className='headerOpacity center'>
-          <h1 className='signika xlarger' >Our Menu</h1>
+          <h1 className='great xlarger' >Our Menu</h1>
         </div>
       </div>
       <img src='https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-16-min-scaled.jpg' onLoad={()=>setValue(5)} alt='' className='onLoadPic'/>
