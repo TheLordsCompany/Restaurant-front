@@ -35,43 +35,43 @@ function Menu() {
           {quickNibbles.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2 className='archivo blod orange'>{'SNACKS AND LITES (VEG)'}</h2>
+          <h2 className='archivo blod orange'>SNACKS AND LITES (VEG)</h2>
           {snacksAndLitesVeg.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2 className='archivo blod orange'>{'SNACKS AND LITES (NON VEG)'}</h2>
+          <h2 className='archivo blod orange'>SNACKS AND LITES (NON VEG)</h2>
           {snacksAndLitesNonVeg.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2 className='archivo blod orange'>{'BIRYANIS'}</h2>
+          <h2 className='archivo blod orange'>BIRYANIS</h2>
           {biryanis.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2 className='archivo blod orange'>{'SIDES & SALADS'}</h2>
+          <h2 className='archivo blod orange'>SIDES & SALADS</h2>
           {sidesAndSalads.map((elem, i) => (
-            <MenuElement key={i} elem={elem} />
-          ))}
-          <h2 className='archivo blod orange'>{'DESSERTS'}</h2>
-          {desserts.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
         </div>
         <div className='container500'>
-          <h2 className='archivo blod orange'>{'MAINS (NON-VEG)'}</h2>
+          <h2 className='archivo blod orange'>MAINS (NON-VEG)</h2>
           {mainsNonVeg.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
-          ))}
-          <h2 className='archivo blod orange'>{'MAINS SEAFOOD'}</h2>
+            ))}
+          <h2 className='archivo blod orange'>MAINS SEAFOOD</h2>
           {mainsSeafoud.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
           ))}
-          <h2 className='archivo blod orange'>{'MAINS (VEGETARIAN)'}</h2>
+          <h2 className='archivo blod orange'>MAINS (VEGETARIAN)</h2>
           {mainsVegetarian.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
-          ))}
-          <h2 className='archivo blod orange'>{'NAAN BREADS'}</h2>
+            ))}
+          <h2 className='archivo blod orange'>NAAN BREADS</h2>
           {naanBreads.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
+            ))}
+          <h2 className='archivo blod orange'>DESSERTS</h2>
+          {desserts.map((elem, i) => (
+            <MenuElement key={i} elem={elem} />
           ))}
         </div>
       </div>

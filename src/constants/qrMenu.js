@@ -21,7 +21,7 @@ var array= [
       },
       {
         
-        name: "FRENCH ONION SOUP",
+        name: "CHICKEN CREAM SOUP",
         price: "85",
         description: 'test description',
       },
@@ -36,13 +36,13 @@ var array= [
         
         name: "CEASER SALAD",
         price: "85",
-        description: "",
+        description: "Ice burg lattuce, Cherry Tomato,Chicken, Served with Ceaser Dressing"
       },
       {
         
         name: "QUINUA SALAD",
         price: "85",
-        description: "",
+        description: "QUINUA, Mixed vegetable, Served with Honey Lemon Dressing"
       },
       {
         
@@ -63,12 +63,7 @@ var array= [
    
     category: "APPETIZERS",
     elems: [
-      {
-        
-        name: "SAMBOSA",
-        price: "",
-        description: "",
-      },
+    
       {
         
         name: "DYNAMITE SHRIMP",
@@ -77,7 +72,13 @@ var array= [
       },
       {
         
-        name: "CHICKEN CHEESE ROLL",
+        name: "ITALIAN POTATOES",
+        price: "",
+        description: "",
+      },
+      {
+        
+        name: "PARMESANA CHICKEN",
         price: "",
         description: "",
       },
@@ -89,19 +90,31 @@ var array= [
       },
       {
         
-        name: "LOOSE PRAWN",
+        name: "CHEESE BALL",
         price: "",
         description: "",
       },
       {
         
-        name: "DRAGON CHICKEN",
+        name: "MUSHROOM STUFFED",
         price: "",
         description: "",
       },
       {
         
-        name: "MAJISTICK CHICKEN",
+        name: "TENDER CHICKEN",
+        price: "",
+        description: "",
+      },
+      {
+        
+        name: "SHRIMPS SAUCE & CHERRY",
+        price: "",
+        description: "",
+      },
+      {
+        
+        name: "CALAMARI",
         price: "",
         description: "",
       },
@@ -116,8 +129,14 @@ var array= [
   {
     id: 4,
     
-    category: "SANDWICHES",
+    category: "SMALL BITES",
     elems: [
+      {
+        
+        name: "SAMBOSA",
+        price: "",
+        description: "",
+      },
       {
         
         name: "CLUB SANDWICH",
@@ -130,6 +149,17 @@ var array= [
         price: "",
         description: "",
       },
+      {
+        
+        name: "CHICKEN LOLLIPOP",
+        price: "",
+        description: "",
+      },  {
+        
+        name: "CREAM CHICKEN ROLL",
+        price: "",
+        description: "",
+      }
     ],
   },
   {
@@ -145,12 +175,37 @@ var array= [
       },
       {
         
-        name: "MONGOLIAN CHICKEN",
+        name: "CHICKEN MOSAIC",
         price: "",
         description: "",
-      },  {
+      },
+      {
         
-        name: "PASTA(FETTOCHINO/PENNE/SPAGETTI",
+        name: "BEEF PEPPER",
+        price: "",
+        description: "",
+      }, 
+      {
+        
+        name: "CHICKEN PISTACHIO",
+        price: "",
+        description: "",
+      }, 
+      {
+        
+        name: "SALT PEPPER PRAWNS",
+        price: "",
+        description: "",
+      }, 
+      {
+        
+        name: "NAJIL FISH",
+        price: "",
+        description: "",
+      }, 
+      {
+        
+        name: "PASTA FETTOCHINO PENNE SPAGETTI",
         price: "",
         description: ""
       }
@@ -163,7 +218,7 @@ var array= [
     elems: [
       {
         
-        name: "BIRYANI(PLAIN/CHICKEN/MUTTON)        ",
+        name: "BIRYANI PLAIN CHICKEN MUTTON",
         price: "",
         description: ""
       },
@@ -179,17 +234,12 @@ var array= [
         description: ""
       },{
         
-        name: "CHOP MASALA",
+        name: "NALLI GOSHT",
         price: "",
         description: ""
       },{
         
-        name: "PRAWN TAWA MASALA",
-        price: "",
-        description: ""
-      },{
-        
-        name: "CHEF SPECIAL (SAT-FRI)",
+        name: "CHEF SPECIAL SAT FRI",
         price: "",
         description: ""
       }
@@ -220,6 +270,11 @@ var array= [
         name: "MIX GRILL",
         price: "",
         description: ""
+      },{
+        
+        name: "CREAM CHICKEN TIKKA",
+        price: "",
+        description: ""
       }
     ]
   },{
@@ -245,7 +300,7 @@ var array= [
         description: ""
       },{
         
-        name: "ASSORTED ROTU NAAN",
+        name: "ASSORTED ROT NAAN",
         price: "",
         description: ""
       }
@@ -288,7 +343,7 @@ var array= [
         description: ""
       },{
         
-        name: "CAFE AMERICANO",
+        name: "V60",
         price: "",
         description: ""
       }
@@ -299,7 +354,7 @@ var array= [
     category: "COLD DRINKS",
     elems: [
       {
-        name: "ICE TEAN",
+        name: "PASSION FUIT ICE TEA",
         price: "",
         description: ""
       },
@@ -310,27 +365,43 @@ var array= [
         description: ""
       },{
         
-        name: "THAIME UP",
+        name: "THYME UP",
         price: "",
         description: ""
       },{
         
-        name: "I GOT HOT SAUCE",
-        price: "",
-        description: ""
-      },{
-        
-        name: "BLUE WHALE",
-        price: "",
-        description: ""
-      },{
-        
-        name: "GREEN GOBLIN",
+        name: "LEMON ICE TEA",
         price: "",
         description: ""
       },{
         
         name: "BUBBLE GUM",
+        price: "",
+        description: ""
+      },{
+        
+        name: "V60",
+        price: "",
+        description: ""
+      },{
+        
+        name: "BERRY BLAST",
+        price: "",
+        description: ""
+      },{
+        
+        name: "YU-ZU TERRIFIC",
+        price: "",
+        description: ""
+      },{
+        
+        name: "CHANPAGNE JUG SAUDI",
+        price: "",
+        description: ""
+      },
+      {
+        
+        name: "PEACH ME UP",
         price: "",
         description: ""
       }
