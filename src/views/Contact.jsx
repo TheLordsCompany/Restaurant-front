@@ -49,7 +49,7 @@ function Contact() {
             </div>
             <div className="container300" style={{ marginTop: 40 }}>
               <h3 className="newsreader semiLarge"><span className="dancing">T:</span> 011 214 0255</h3>
-              <h3 className="newsreader semiLarge"><span className="dancing">E:</span> info@indianlounge.co.nz</h3>
+              <h3 className="newsreader semiLarge"><span className="dancing">E:</span> info@afreenlounge.com </h3>
             </div>
           </div>
           <div className="Center row">
