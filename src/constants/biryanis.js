@@ -1,23 +1,31 @@
 module.exports=[
-    {
-        title:'VEG BIRYANI' ,
+     {
         
-        price:'22.5',
-    },
-    {
-        title:'CHICKEN BIRYANI' ,
+        name: "SAMBOSA",
+        price: "",
+        description: "Savory pastries stuffed with (Chicken/Potatoes/FETA) seasoned with indian spices.",
+      },
+      {
         
-        price:'23.5',
-    },
-    {
-        title:'LAMB BIRYANI ' ,
-       
-        price:'24.5',
-    },
-    {
-        title:'GOAT BIRYANI ' ,
-      
-        price:'24.5',
-    },
-    
-]
+        name: "CLUB SANDWICH",
+        price: "",
+        description: "Bread, Egg, Chicken, Lettuce and Mayonnaise. Make the two lear then Grill and Served with French Fries",
+      },
+      {
+        
+        name: "CHICKEN TIKKA ROLL",
+        price: "",
+        description: "",
+      },
+      {
+        
+        name: "CHICKEN LOLLIPOP",
+        price: "",
+        description: "",
+      },  {
+        
+        name: "CREAM CHICKEN ROLL",
+        price: "",
+        description: "",
+      }
+    ]
