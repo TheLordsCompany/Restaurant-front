@@ -18,15 +18,15 @@ function About() {
         }}
       >
         <div className="headerOpacity center">
-          <h1 className="signika xlarger">About Us</h1>
+          <h1 className="great xlarger">About Us</h1>
         </div>
       </div>
         <img src='https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/h1.jpg' onLoad={()=>setValue(5)} alt='' className='onLoadPic'/>
       <div className="center">
         <div className="container">
           <p className="textCenter orange meduim blod">MORE FLAVOR FOR LESS</p>
-          <h2 className="textCenter comforter xlarger">Good food and</h2>
-          <h2 className="textCenter comforter xlarger"> Great vibes</h2>
+          <h2 className="textCenter great xlarger">Good food and</h2>
+          <h2 className="textCenter great xlarger"> Great vibes</h2>
         </div>
       </div>
       <div className="Center">
@@ -42,7 +42,7 @@ function About() {
               />
             </div>
             <div className="container500">
-              <p className="meduim blod">
+              <p className="meduim blod shadows">
                 Afreen Lounge is brought to you with a vision to share the
                 culture, passion, and the variety of flavors. We draw
                 influences from major food regions across the world. 
@@ -53,7 +53,7 @@ function About() {
                 Quality food. It is our honour to welcome you to experience the
                 warm hospitality .
               </p>
-              <p className="meduim blod">
+              <p className="meduim blod shadows">
                 We offer home delivery and takeaway, order your{" "}
                 <span className="orange">food online now.</span>{" "}
               </p>
@@ -72,7 +72,7 @@ function About() {
             }}
           >
             
-            <h2>Hangout.</h2>
+            <h2 className="bebas">Hangout.</h2>
           </div>
           <div
             className="center card"
@@ -82,7 +82,7 @@ function About() {
             }}
           >
             
-            <h2>Drinks.</h2>
+            <h2 className="bebas">Drinks.</h2>
           </div>
           <div
             className="center card specialCard"
@@ -95,7 +95,7 @@ function About() {
             }}
           >
             
-            <h2>Fine Dine.</h2>
+            <h2 className="bebas"> Fine Dine.</h2>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@ function About() {
         <div className="center">
           <div>
             <p className="textCenter ">FOLLOW ALONG</p>
-            <h2 className="textCenter dancing blod larger pointer" onClick={()=>window.location.assign("https://www.instagram.com/afreencafe/")}>@afreenlounge</h2>
+            <h2 className="textCenter great blod larger pointer" onClick={()=>window.location.assign("https://www.instagram.com/afreencafe/")}>@afreenlounge</h2>
           </div>
         </div>
         <div className="">
