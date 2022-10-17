@@ -33,7 +33,7 @@ function Contact() {
         <div className='headerOpacity center'>
           <div>
             <p className="textCenter">FIND US</p>
-            <h1 className='signika xlarger' >Contact</h1>
+            <h1 className='great xlarger' >Contact</h1>
 
           </div>
         </div>
@@ -44,32 +44,32 @@ function Contact() {
 
           <div className="Center wrap  ">
             <div className="container500">
-              <p className="newsreader blod large">Contact</p>
+              <p className="great blod large">Contact</p>
               <h6 className="orange">King Salman Bin Abdulaziz Rd, Al Malqa, Riyadh 13524</h6>
             </div>
             <div className="container300" style={{ marginTop: 40 }}>
-              <h3 className="newsreader semiLarge"><span className="dancing">T:</span> 011 214 0255</h3>
-              <h3 className="newsreader semiLarge"><span className="dancing">E:</span> info@afreenlounge.com </h3>
+              <h3 className="bebas semiLarge"><span className="bebas">T:</span> 011 214 0255</h3>
+              <h3 className="bebas semiLarge"><span className="bebas">E:</span> info@afreenlounge.com </h3>
             </div>
           </div>
           <div className="Center row">
             <div className="container500">
-              <h2 className="newsreader blod large">Follow Us</h2>
+              <h2 className="great blod large">Follow Us</h2>
               
               <h6 className="orange pointer" onClick={()=>window.location.assign("https://www.instagram.com/afreencafe/")}>Instagram</h6>
               
             </div>
             <div className="container300">
-              <h2 className="newsreader blod large">Opening Hours</h2>
+              <h2 className="great blod large">Opening Hours</h2>
               <div className=" wrap ">
                 <div className="margin">
                   
-                  <h6 className="dancing semiLarge blod">Sunday to Wednesday </h6>
+                  <h6 className="shadows semiLarge blod">Sunday to Wednesday </h6>
                   <h6 className="orange">2:00pm - 1:00am</h6>
                 </div>
                 <div className="margin">
                   
-                  <h6 className="dancing semiLarge blod">Thursday to Saturday</h6>
+                  <h6 className="shadows semiLarge blod">Thursday to Saturday</h6>
                   <h6 className="orange ">1:30pm - 2:0am</h6>
                 </div>
               </div>
@@ -83,8 +83,8 @@ function Contact() {
       <div className="center">
         <div className="spaceBetween wrap ">
           <div className="container300">
-            <h2>Get in touch</h2>
-            <p>
+            <h2 className="great">Get in touch</h2>
+            <p className="bebas">
               If you have questions or comments, please get a hold of us in
               whichever way is most convenient. Ask away. There is no reasonable
               question that our team can not answer.
@@ -93,7 +93,7 @@ function Contact() {
           <div className="container700">
 
             <form className="column">
-              <label>
+              <label className="bebas">
                 YOUR NAME
               </label>
               <input
@@ -103,7 +103,7 @@ function Contact() {
                 onChange={handleChange}
               />
 
-              <label>
+              <label className="bebas">
                 YOUR EMAIL
               </label>
               <input
@@ -113,7 +113,7 @@ function Contact() {
                 onChange={handleChange}
               />
 
-              <label>
+              <label className="bebas">
                 YOUR MESSAGE (OPTIONAL)
               </label>
               <textarea

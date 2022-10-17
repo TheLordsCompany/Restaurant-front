@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 import Header from "../layout/Header";
-import pic1 from '../assets/images/more470/023.jpg'
-import pic2 from '../assets/images/more470/015.jpg'
-import pic3 from '../assets/images/more470/051.jpg'
-import pic4 from '../assets/images/more470/017.jpg'
-import picMobile1 from '../assets/images/less470/004.jpg'
-import picMobile2 from '../assets/images/less470/010.jpg'
-import picMobile3 from '../assets/images/less470/022.jpg'
-import picMobile4 from '../assets/images/less470/048.jpg'
+import pic1 from '../assets/images/more470/023 copy.jpg'
+import pic2 from '../assets/images/more470/015 copy.jpg'
+import pic3 from '../assets/images/more470/051 copy.jpg'
+import pic4 from '../assets/images/more470/017 copy.jpg'
+import picMobile1 from '../assets/images/less470/004 copy.jpg'
+import picMobile2 from '../assets/images/less470/010 copy.jpg'
+import picMobile3 from '../assets/images/less470/022 copy.jpg'
+import picMobile4 from '../assets/images/less470/048 copy.jpg'
 import Loading from "../components/Loading";
 
 let array = [
@@ -33,7 +33,7 @@ let array = [
 function Home() {
   const [value, setValue] = useState(0);
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
   console.log(value);
   return (
