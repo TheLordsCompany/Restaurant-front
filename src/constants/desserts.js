@@ -1,28 +1,54 @@
 module.exports=[
     {
-        title:'MANGO KULFI' ,
+        name: "PASSION FUIT ICE TEA",
+        price: "",
+        description: "Infused tea | passionfruit puree | lemon juice | sugar syrup | vanilla syrup"
+      },
+      {
         
-        price:'10.0',
-    },
-    {
-        title:'GULAB JAMUN' ,
+        name: "SANGRIA",
+        price: "",
+        description: ""
+      },{
         
-        price:'10.0',
-    },
-    {
-        title:'GULAB JAMUN WITH ICE CREAM       ' ,
-       
-        price:'13.5',
-    },
-    {
-        title:'CHOCOLATE LAVA PUDDING' ,
-        description:'(WITH VANILLA ICE CREAM)',
-        price:'15.0',
-    },
-    {
-        title:'DRUNK GULAB JAMUN' ,
-       description:'(served with Old Monk Rum, Strictly 18+)',
-        price:'20.0',
-    },
-    
+        name: "THYME UP",
+        price: "",
+        description: "Thyme syrup | bitters | lychee syrup | lemon | ginger ale"
+      },{
+        
+        name: "LEMON ICE TEA",
+        price: "",
+        description: "Infused tea | lemon juice | sugar syrup | vanilla syrup"
+      },{
+        
+        name: "BUBBLE GUM",
+        price: "",
+        description: ""
+      },{
+        
+        name: "V60",
+        price: "",
+        description: ""
+      },{
+        
+        name: "BERRY BLAST",
+        price: "",
+        description: ""
+      },{
+        
+        name: "YU-ZU TERRIFIC",
+        price: "",
+        description: "burn orange | orange juice | lime leaf | yuzu | sour mix"
+      },{
+        
+        name: "CHANPAGNE JUG SAUDI",
+        price: "",
+        description: ""
+      },
+      {
+        
+        name: "PEACH ME UP",
+        price: "",
+        description: "non alcholic gin botanical | Peach puree| cranberry juice| sour mix"
+      }   
 ]
