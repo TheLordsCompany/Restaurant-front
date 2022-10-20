@@ -186,7 +186,7 @@ textarea {
     background-size: 260%;
   }
 }
-#carousel0 {
+/* #carousel0 {
   background-image: url('../assets/images/more470/023\ copy.jpg');
   background-position: 50% 50% ;
 }
@@ -204,7 +204,7 @@ textarea {
 #carousel3 {
   background-image: url('../assets/images/more470/017\ copy.jpg') ;
   background-position: 60% 50% ;
-}
+} */
 .loading{
     position: fixed;
     background-color: rgb(184, 184, 184);
