@@ -14,7 +14,7 @@ function Contact() {
   });
   const onSubmit = (e) => {
     e.preventDefault();
-    send("service_z2b4xuu", "template_er0aion", toSend, "npTagOFNOxgcLuTKC")
+    send("service_p4ubo3y", "template_58fflbr", toSend, "FIzc8RrZlasDluj6p")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
