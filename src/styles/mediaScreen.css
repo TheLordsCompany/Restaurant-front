@@ -30,10 +30,26 @@
         background-size: 110%;
 
     }
-
-    #carousel3 {
+    #carousel0 {
+        background-image: url('../assets/images/more470/023\ copy.jpg') !important;
+        background-position: 50% 50% ;
+      }
+      
+      #carousel1 {
+        background-image: url('../assets/images/more470/015\ copy.jpg') !important;
+        background-position: 40% 50% ;
+      }
+      
+      #carousel2 {
+        background-image: url('../assets/images/more470/051\ copy.jpg') !important;
+        background-position: 60% 50% ;
+      }
+      
+      #carousel3 {
+        background-image: url('../assets/images/more470/017\ copy.jpg') !important ;
         background-position: 50% 90% !important;
-    }
+      }
+  
 
     @keyframes zoominoutsinglefeatured {
         0% {
@@ -301,6 +317,42 @@
 
 }
 
+@media only screen and (min-width:471px) and (max-width:1162px){
+    .homeCarousel {
+
+        background-size: 110%;
+    }
+
+    @keyframes zoominoutsinglefeatured {
+        0% {
+            background-size: 110%;
+        }
+
+        50% {
+            background-size: 120%;
+        }
+    }
+    #carousel0 {
+        background-image: url('../assets/images/ipadScreen/IMG-20221019-WA0001.jpg') !important;
+        background-position: 50% 50% ;
+      }
+      
+      #carousel1 {
+        background-image: url('../assets/images/ipadScreen/IMG-20221019-WA0002.jpg') !important;
+        background-position: 50% 50% ;
+      }
+      
+      #carousel2 {
+        background-image: url('../assets/images/ipadScreen/IMG-20221019-WA0008.jpg') !important;
+        background-position: 50% 50% ;
+      }
+      
+      #carousel3 {
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0004.jpg') !important ;
+        background-position: 50% 50% !important;
+      }
+
+}
 @media only screen and (max-width:470px) {
     .picturesZone {
         width: 300px;
@@ -333,7 +385,7 @@
 
     .homeCarousel {
 
-        background-size: 150%;
+        background-size: 100%;
     }
 
     @keyframes zoominoutsinglefeatured {
@@ -347,21 +399,21 @@
     }
 
     #carousel0 {
-        background-image: url('../assets/images/less470/004\ copy.jpg') !important;
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0005.jpg') !important;
         background-position: 40% 50% !important;
     }
 
     #carousel1 {
-        background-image: url('../assets/images/less470/010\ copy.jpg') !important;
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0006.jpg') !important;
         background-position: 40% 50% !important;
     }
 
     #carousel2 {
-        background-image: url('../assets/images/less470/022\ copy.jpg') !important;
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0007.jpg') !important;
     }
 
     #carousel3 {
-        background-image: url('../assets/images/less470/048\ copy.jpg') !important;
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0003.jpg') !important;
         background-position: 40% 50% !important;
     }
 }
