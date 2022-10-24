@@ -5,7 +5,7 @@
 var array= [
   {
     id: 1,
-    category: "SOUP",
+    category: "CHORBA",
     elems: [
       {
 
@@ -30,11 +30,11 @@ var array= [
   {
     id: 2,
    
-    category: "SALAD",
+    category: "GREENS",
     elems: [
       {
         
-        name: "CEASER SALAD",
+        name: "CEASAR SALAD",
         price: "85",
         description: "Ice burg lattuce, Cherry Tomato,Chicken, Served with Ceaser Dressing"
       },
@@ -84,19 +84,19 @@ var array= [
       },
       {
         
-        name: "RISOTTA BALL",
+        name: "RISOTTO BALLS",
         price: "",
         description: "",
       },
       {
         
-        name: "CHEESE BALL",
+        name: "CHEESE BALLS",
         price: "",
         description: "",
       },
       {
         
-        name: "MUSHROOM STUFFED",
+        name: "STUFFED MUSHROOMS",
         price: "",
         description: "",
       },
@@ -129,7 +129,7 @@ var array= [
   {
     id: 4,
     
-    category: "SMALL BITES",
+    category: "FINGER BITES",
     elems: [
       {
         
@@ -165,11 +165,11 @@ var array= [
   {
     id: 5,
    
-    category: "INTERNATIONAL MAIN COURSE",
+    category: "AROUND THE WORLD",
     elems: [
       {
         
-        name: "SALMON LEMON PLAIN",
+        name: "GRILLED SALMON",
         price: "",
         description: "",
       },
@@ -203,22 +203,52 @@ var array= [
         price: "",
         description: "",
       }, 
+   
+    ],
+  },{
+    id: 6,
+   
+    category: "MAMMA MIA",
+    elems: [
+   
+  
+    
       {
         
-        name: "PASTA FETTOCHINO PENNE SPAGETTI",
+        name: "CHICKEN FETTUCCINI",
+        price: "",
+        description: ""
+      }, {
+        
+        name: "PENNE PASTA",
+        price: "",
+        description: ""
+      }, {
+        
+        name: "PESTO PASTA",
         price: "",
         description: ""
       }
     ],
   },
   {
-    id: 6,
+    id: 7,
    
-    category: "INDIAN MAIN COURSE",
+    category: "DESI FLAVOURS",
     elems: [
       {
         
-        name: "BIRYANI PLAIN CHICKEN MUTTON",
+        name: "PLAIN BIRYANI",
+        price: "",
+        description: ""
+      },   {
+        
+        name: "CHICKEN BIRYANI",
+        price: "",
+        description: ""
+      },   {
+        
+        name: "MUTTON BIRYANI",
         price: "",
         description: ""
       },
@@ -229,25 +259,20 @@ var array= [
         description: ""
       },{
         
-        name: "CHICKEN TIKKA MASALA",
+        name: "MURGH TIKKA MASALA",
         price: "",
         description: ""
       },{
         
-        name: "NALLI GOSHT",
-        price: "",
-        description: ""
-      },{
-        
-        name: "CHEF SPECIAL SAT FRI",
+        name: "NALLI GHOSHT",
         price: "",
         description: ""
       }
     ],
   },{
-    id: 7,
+    id: 8,
    
-    category: "TANDOOR SPECIAL GRILL WITH LOVE",
+    category: "TANDOOR SPECIAL grilled with love",
     elems: [
       {
         
@@ -262,7 +287,7 @@ var array= [
         description: ""
       },{
         
-        name: "KING PRAWN",
+        name: "KING BUTTER PRAWN",
         price: "",
         description: ""
       },{
@@ -278,9 +303,9 @@ var array= [
       }
     ]
   },{
-    id: 8,
+    id: 9,
    
-    category: "BREAD",
+    category: "NAAN DIRECTLY FROM TANDOOR",
     elems: [
       {
         
@@ -300,15 +325,15 @@ var array= [
         description: ""
       },{
         
-        name: "ASSORTED ROT NAAN",
+        name: "ASSORTED BASKET",
         price: "",
         description: ""
       }
     ]
   },{
-    id: 9,
+    id: 10,
    
-    category: "HOT DRINKS",
+    category: "WINTER HEATER",
     elems: [
       {
         
@@ -323,17 +348,17 @@ var array= [
         description: ""
       },{
         
-        name: "CAFE LATE",
+        name: "CAFE LATTE",
         price: "",
         description: ""
       },{
         
-        name: "SPANICH LATE",
+        name: "SPANISH LATE",
         price: "",
         description: ""
       },{
       
-        name: "GREEN TEA KETTLE",
+        name: "MORROCAN TEA",
         price: "",
         description: ""
       },{
@@ -349,12 +374,12 @@ var array= [
       }
     ]
   },{
-    id: 10,
+    id: 11,
    
-    category: "COLD DRINKS",
+    category: "AFREEN SIGNATURE MOCKTAILS",
     elems: [
       {
-        name: "PASSION FUIT ICE TEA",
+        name: "PASSION FRUIT ICE TEA",
         price: "",
         description: ""
       },
@@ -365,7 +390,7 @@ var array= [
         description: ""
       },{
         
-        name: "THYME UP",
+        name: "THYME IS UP!",
         price: "",
         description: ""
       },{
@@ -375,33 +400,33 @@ var array= [
         description: ""
       },{
         
-        name: "BUBBLE GUM",
+        name: "GUMBALL",
         price: "",
         description: ""
       },{
         
-        name: "V60",
+        name: "BERRY BLUST",
         price: "",
         description: ""
       },{
         
-        name: "BERRY BLAST",
+        name: "YUZU TERRIFIC!",
         price: "",
         description: ""
       },{
         
-        name: "YU-ZU TERRIFIC",
-        price: "",
-        description: ""
-      },{
-        
-        name: "CHANPAGNE JUG SAUDI",
+        name: "SAUDI CHAMPAGNE",
         price: "",
         description: ""
       },
       {
         
-        name: "PEACH ME UP",
+        name: "PEACH ME UP!",
+        price: "",
+        description: ""
+      },  {
+        
+        name: "I GOT HOT SAUCE!",
         price: "",
         description: ""
       }

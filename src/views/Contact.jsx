@@ -6,6 +6,7 @@ function Contact() {
   useEffect(()=>{
     window.scrollTo(0, 0);
   },[])
+  const form = document.getElementById('my_form');
   const [toSend, setToSend] = useState({
     from_name: "",
     to_name: "",
@@ -13,10 +14,12 @@ function Contact() {
     reply_to: "",
   });
   const onSubmit = (e) => {
-    e.preventDefault();
-    send("service_z2b4xuu", "template_er0aion", toSend, "npTagOFNOxgcLuTKC")
+  
+    send("service_p4ubo3y", "template_58fflbr", toSend, "FIzc8RrZlasDluj6p")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
+        e.preventDefault();
+
       })
       .catch((err) => {
         console.log("FAILED...", err);
@@ -124,8 +127,8 @@ function Contact() {
                 onChange={handleChange}
               />
 
-              <button className='order margin btn' type="submit" onClick={onSubmit} >
-                Submit</button>
+              <input className='order margin btn' type="submit" name="Submit" onClick={onSubmit} />
+               
             </form>
           </div>
         </div>
