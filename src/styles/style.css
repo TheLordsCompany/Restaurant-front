@@ -231,7 +231,7 @@ textarea {
 .cardMenuPic {
     border-radius: 10px;
     height: 100px;
-    width: 150px;
+    /* width: 150px; */
     
 }
 .cardMenuPrice {
