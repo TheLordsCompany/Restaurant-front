@@ -70,7 +70,10 @@ function QrMenu() {
           <div className="margin row wrap">
             {subMenu.map((elem, i) => (
               <div className="cardMenu">
+                
+
                 <img src={process.env.PUBLIC_URL+'/assets/images/qrmenu/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
+               
                 <h6 className="titleCard bebas">{elem.name}</h6>
                 <p className="discrptionCard shadows">{"test description"}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
@@ -87,14 +90,16 @@ function QrMenu() {
             {subMenu.map((elem, i) => (
               <div className="spaceBetween margin "   >
                 <div className="qrMenuVeiw2ZoneText">
-                  <h6  className="titleCard newsreader">{elem.name}</h6>
-                  <p className="discrptionCard dancing">{"test description"}</p>
+                  <h6  className="titleCard bebas">{elem.name}</h6>
+                  <p className="discrptionCard shadows">{"test description"}</p>
                   <button className="cardMenuPrice textCenter spaceBetween white">
                     <p>{elem.price}</p>
                     <p>SA</p>
                   </button>
                 </div>
+                <div className='Center' style={{height:100,width:150}}>
                 <img src={process.env.PUBLIC_URL+'/assets/images/qrmenu/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
+                </div>
               </div>
             ))}
             </div>
