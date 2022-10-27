@@ -91,7 +91,7 @@ function QrMenu() {
               <div className="spaceBetween margin "   >
                 <div className="qrMenuVeiw2ZoneText">
                   <h6  className="titleCard bebas">{elem.name}</h6>
-                  <p className="discrptionCard shadows">{"test description"}</p>
+                  <p className="discrptionCard shadows">{elem.description}</p>
                   <button className="cardMenuPrice textCenter spaceBetween white">
                     <p>{elem.price}</p>
                     <p>SA</p>
