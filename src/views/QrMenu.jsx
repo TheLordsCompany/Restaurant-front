@@ -75,7 +75,7 @@ function QrMenu() {
                 <img src={process.env.PUBLIC_URL+'/assets/images/qrmenu/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
                
                 <h6 className="titleCard bebas">{elem.name}</h6>
-                <p className="discrptionCard shadows">{"test description"}</p>
+                <p className="discrptionCard shadows">{elem.description}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
                   <p>{elem.price}</p>
                   <p>SA</p>
