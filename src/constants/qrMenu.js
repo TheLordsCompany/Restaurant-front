@@ -1,7 +1,3 @@
-
-
-
-
 var array= [
   {
     id: 1,
@@ -10,19 +6,19 @@ var array= [
       {
 
         name: "CHICKEN CORN SOUP",
-        price: "85",
+        price: "50",
         description: 'test description',
       },
       {
         
         name: "MUSHROOM SOUP",
-        price: "85",
+        price: "55",
         description: 'test description',
       },
       {
         
         name: "CHICKEN CREAM SOUP",
-        price: "85",
+        price: "55",
         description: 'test description',
       },
     ],
@@ -35,25 +31,25 @@ var array= [
       {
         
         name: "CEASAR SALAD",
-        price: "85",
+        price: "52",
         description: "Ice burg lattuce, Cherry Tomato,Chicken, Served with Ceaser Dressing"
       },
       {
         
         name: "QUINUA SALAD",
-        price: "85",
+        price: "68",
         description: "QUINUA, Mixed vegetable, Served with Honey Lemon Dressing"
       },
       {
         
         name: "FRIED PRAWN SALAD",
-        price: "85",
+        price: "65",
         description: "",
       },
       {
        
         name: "CHEF SALAD",
-        price: "85",
+        price: "47",
         description: "",
       },
     ],
@@ -67,61 +63,61 @@ var array= [
       {
         
         name: "DYNAMITE SHRIMP",
-        price: "",
+        price: "65",
         description: "",
       },
       {
         
         name: "ITALIAN POTATOES",
-        price: "",
+        price: "55",
         description: "",
       },
       {
         
         name: "PARMESANA CHICKEN",
-        price: "",
+        price: "69",
         description: "",
       },
       {
         
         name: "RISOTTO BALLS",
-        price: "",
+        price: "68",
         description: "",
       },
       {
         
         name: "CHEESE BALLS",
-        price: "",
+        price: "46",
         description: "",
       },
       {
         
         name: "STUFFED MUSHROOMS",
-        price: "",
+        price: "62",
         description: "",
       },
       {
         
         name: "TENDER CHICKEN",
-        price: "",
+        price: "47",
         description: "",
       },
       {
         
         name: "SHRIMPS SAUCE & CHERRY",
-        price: "",
+        price: "68",
         description: "",
       },
       {
         
         name: "CALAMARI",
-        price: "",
+        price: "69",
         description: "",
       },
       {
         
         name: "BREADED FISH CAKE",
-        price: "",
+        price: "52",
         description: "",
       },
     ],
@@ -134,30 +130,30 @@ var array= [
       {
         
         name: "SAMBOSA",
-        price: "",
+        price: "28",
         description: "",
       },
       {
         
         name: "CLUB SANDWICH",
-        price: "",
+        price: "55",
         description: "",
       },
       {
         
         name: "CHICKEN TIKKA ROLL",
-        price: "",
+        price: "42",
         description: "",
       },
       {
         
         name: "CHICKEN LOLLIPOP",
-        price: "",
+        price: "49",
         description: "",
       },  {
         
         name: "CREAM CHICKEN ROLL",
-        price: "",
+        price: "38",
         description: "",
       }
     ],
@@ -170,37 +166,37 @@ var array= [
       {
         
         name: "GRILLED SALMON",
-        price: "",
+        price: "105",
         description: "",
       },
       {
         
         name: "CHICKEN MOSAIC",
-        price: "",
+        price: "85",
         description: "",
       },
       {
         
         name: "BEEF PEPPER",
-        price: "",
+        price: "99",
         description: "",
       }, 
       {
         
         name: "CHICKEN PISTACHIO",
-        price: "",
+        price: "92",
         description: "",
       }, 
       {
         
         name: "SALT PEPPER PRAWNS",
-        price: "",
+        price: "87",
         description: "",
       }, 
       {
         
         name: "NAJIL FISH",
-        price: "",
+        price: "120",
         description: "",
       }, 
    
@@ -216,17 +212,17 @@ var array= [
       {
         
         name: "CHICKEN FETTUCCINI",
-        price: "",
+        price: "62",
         description: ""
       }, {
         
         name: "PENNE PASTA",
-        price: "",
+        price: "68",
         description: ""
       }, {
         
         name: "PESTO PASTA",
-        price: "",
+        price: "79",
         description: ""
       }
     ],
@@ -239,33 +235,33 @@ var array= [
       {
         
         name: "PLAIN BIRYANI",
-        price: "",
+        price: "45",
         description: ""
       },   {
         
         name: "CHICKEN BIRYANI",
-        price: "",
+        price: "65",
         description: ""
       },   {
         
         name: "MUTTON BIRYANI",
-        price: "",
+        price: "83",
         description: ""
       },
       {
         
-        name: "BUTTER CHICKEN",
-        price: "",
+        name: "BUTTER CHICKEN-Delhi 6",
+        price: "65",
         description: ""
       },{
         
         name: "MURGH TIKKA MASALA",
-        price: "",
+        price: "65",
         description: ""
       },{
         
         name: "NALLI GHOSHT",
-        price: "",
+        price: "72",
         description: ""
       }
     ],
@@ -277,28 +273,28 @@ var array= [
       {
         
         name: "CHICKEN TIKKA",
-        price: "",
+        price: "64",
         description: ""
       },
       {
         
         name: "MUTTON SEEKH",
-        price: "",
+        price: "85",
         description: ""
       },{
         
         name: "KING BUTTER PRAWN",
-        price: "",
+        price: "82",
         description: ""
       },{
         
         name: "MIX GRILL",
-        price: "",
+        price: "125",
         description: ""
       },{
         
         name: "CREAM CHICKEN TIKKA",
-        price: "",
+        price: "60",
         description: ""
       }
     ]
@@ -310,23 +306,23 @@ var array= [
       {
         
         name: "PLAIN NAAN",
-        price: "",
+        price: "6",
         description: ""
       },
       {
         
         name: "BUTTER NAAN",
-        price: "",
+        price: "8",
         description: ""
       },{
         
         name: "GARLIC NAAN",
-        price: "",
+        price: "8",
         description: ""
       },{
         
         name: "ASSORTED BASKET",
-        price: "",
+        price: "26",
         description: ""
       }
     ]
@@ -338,38 +334,38 @@ var array= [
       {
         
         name: "FLAT WHITE",
-        price: "",
+        price: "28",
         description: ""
       },
       {
         
         name: "TURKISH COFFE",
-        price: "",
+        price: "30",
         description: ""
       },{
         
         name: "CAFE LATTE",
-        price: "",
+        price: "30",
         description: ""
       },{
         
         name: "SPANISH LATE",
-        price: "",
+        price: "35",
         description: ""
       },{
       
         name: "MORROCAN TEA",
-        price: "",
+        price: "42",
         description: ""
       },{
         
         name: "RED TEA KETTLE",
-        price: "",
+        price: "45",
         description: ""
       },{
         
         name: "V60",
-        price: "",
+        price: "35",
         description: ""
       }
     ]
@@ -380,55 +376,55 @@ var array= [
     elems: [
       {
         name: "PASSION FRUIT ICE TEA",
-        price: "",
-        description: ""
+        price: "45",
+        description: "homemade ice tea at it’s best=infused tea-passionfruit puree-lemon juice-sugar syrup-vanilla syrup"
       },
       {
         
         name: "SANGRIA",
-        price: "",
+        price: "42",
         description: ""
       },{
         
         name: "THYME IS UP!",
-        price: "",
-        description: ""
+        price: "48",
+        description: "a combination of sweet and bitter- thyme syrup-bitters-lychee syrup-lemon-ginger ale "
       },{
         
-        name: "LEMON ICE TEA",
-        price: "",
-        description: ""
+        name: "LEMON ICE TEA-Afreen tailored",
+        price: "48",
+        description: "homemade ice tea at it’s best-infused tea-lemon juice-sugar syrup-vanilla syrup"
       },{
         
         name: "GUMBALL",
-        price: "",
-        description: ""
+        price: "45",
+        description: "let me try some candy juice –bubble gum syrup-strawberry syrup-lemon juice-mint-lemonade water"
       },{
         
         name: "BERRY BLUST",
-        price: "",
-        description: ""
+        price: "48",
+        description: "cooler drinks with mix berries fruits- raspberry juice, blueberry-blackberry-apple juice-ginger juice-strawberry syrup-mix berries-mint leaves"
       },{
         
         name: "YUZU TERRIFIC!",
-        price: "",
-        description: ""
+        price: "48",
+        description: "Yuzu refreshing sour mix –burnt orange-orange juice fresh-lime leaf-yuzu mix-sour mix"
       },{
         
-        name: "SAUDI CHAMPAGNE",
-        price: "",
-        description: ""
+        name: "SAUDI CHAMPAGNE-Made with special love from the bar",
+        price: "70",
+        description: "tailored made at Afreen bar"
       },
       {
         
         name: "PEACH ME UP!",
-        price: "",
-        description: ""
+        price: "48",
+        description: "feel the rush of peach in your mouth –non alcoholic gin botanical-peach puree-cranberry juice=sour mix"
       },  {
         
         name: "I GOT HOT SAUCE!",
-        price: "",
-        description: ""
+        price: "45",
+        description: "sweet and touch of spice – raspberry fruit-pineapple juice-lemon juice-sugar syrup-tobasco"
       }
     ]
   }
