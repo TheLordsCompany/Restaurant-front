@@ -44,13 +44,13 @@ var array= [
         
         name: "FRIED PRAWN SALAD",
         price: "65",
-        description: "",
+        description: "Shrimp, avocado, Mix Baby Leaves, Pomegranates and Nuts, Served with Light Ranch Dressing.",
       },
       {
        
         name: "CHEF SALAD",
         price: "47",
-        description: "",
+        description: "CHEF MOOD",
       },
     ],
   },
@@ -127,17 +127,16 @@ var array= [
     
     category: "FINGER BITES",
     elems: [
-      {
-        
-        name: "SAMBOSA",
+      { 
+        name: "SAMBOSA ",
         price: "28",
-        description: "",
+        description: "Savory pastries stuffed with Chicken  seasoned with indian spices.",
       },
       {
         
         name: "CLUB SANDWICH",
         price: "55",
-        description: "",
+        description: "Bread, Egg, Chicken, Lettuce and Mayonnaise. Make the two lear then Grill and Served with French Fries.",
       },
       {
         
