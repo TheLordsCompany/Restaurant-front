@@ -78,7 +78,7 @@ function QrMenu() {
                 <p className="discrptionCard shadows">{elem.description}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
                   <p>{elem.price}</p>
-                  <p>SA</p>
+                  <p>SAR</p>
                 </button>
               </div>
             ))}
