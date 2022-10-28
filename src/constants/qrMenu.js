@@ -250,7 +250,7 @@ var array= [
       },
       {
         
-        name: "BUTTER CHICKEN-Delhi 6",
+        name: "BUTTER CHICKEN",
         price: "65",
         description: ""
       },{
@@ -391,7 +391,7 @@ var array= [
         description: "a combination of sweet and bitter- thyme syrup-bitters-lychee syrup-lemon-ginger ale "
       },{
         
-        name: "LEMON ICE TEA-Afreen tailored",
+        name: "LEMON ICE TEA",
         price: "48",
         description: "homemade ice tea at it’s best-infused tea-lemon juice-sugar syrup-vanilla syrup"
       },{
@@ -411,7 +411,7 @@ var array= [
         description: "Yuzu refreshing sour mix –burnt orange-orange juice fresh-lime leaf-yuzu mix-sour mix"
       },{
         
-        name: "SAUDI CHAMPAGNE-Made with special love from the bar",
+        name: "SAUDI CHAMPAGNE",
         price: "70",
         description: "tailored made at Afreen bar"
       },
