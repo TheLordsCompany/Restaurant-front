@@ -1,10 +1,25 @@
 import React, { useEffect, useState } from "react";
 import menu from "../constants/qrMenu";
-
+import Modal from "react-modal";
+import Food from "../components/Food";
 import Header from "../layout/Header";
 // import Loading from "../components/Loading";
 import GridViewIcon from "@mui/icons-material/GridView";
 import { GiHamburgerMenu } from "react-icons/gi";
+
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+    backgroundColor:'black'
+  },
+};
+
+Modal.setAppElement("#root");
 
 function QrMenu() {
   const [value, setValue] = useState(0);
@@ -12,10 +27,20 @@ function QrMenu() {
   const [subMenu, setSubMenu] = useState(menu[0].elems);
   const [view, setView] = useState(1);
   const [index,setIndex]=useState(0)
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [elemModal,setElemModal]=useState(null)
+
   console.log(value);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   return (
     <div  className='qrmenu'>
@@ -69,7 +94,9 @@ function QrMenu() {
         {view === 1 && (
           <div className="margin row wrap">
             {subMenu.map((elem, i) => (
-              <div className="cardMenu">
+              <div className="cardMenu" onClick={()=>{
+                setElemModal(elem)
+                openModal()} }>
                 
 
                 <img src={process.env.PUBLIC_URL+'/assets/images/qrmenu/'+selected.category+'/'+elem.name+'.jpg'} alt="" className="cardMenuPic" />
@@ -88,7 +115,9 @@ function QrMenu() {
           <div className=" margin center">
             <div style={{width:'90%'}}>
             {subMenu.map((elem, i) => (
-              <div style={{marginBottom:20}} className="spaceBetween margin "   >
+              <div style={{marginBottom:20}} className="spaceBetween margin " onClick={()=>{
+                setElemModal(elem)
+                openModal()} } >
                 <div className="qrMenuVeiw2ZoneText">
                   <h6  className="titleCard bebas">{elem.name}</h6>
                   <p className="discrptionCard shadows">{elem.description}</p>
@@ -106,7 +135,14 @@ function QrMenu() {
           </div>
         )}
       </div>
-
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <Food elem={elemModal} selected={selected} closeModal={closeModal} />
+      </Modal>
       <Header />
       {/* {value < 4 && <Loading />} */}
     </div>
