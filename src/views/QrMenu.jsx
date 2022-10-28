@@ -78,7 +78,7 @@ function QrMenu() {
                 <p className="discrptionCard shadows">{elem.description}</p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
                   <p>{elem.price}</p>
-                  <p>SAR</p>
+                  <p style={{ marginLeft:'10px'}}>SAR</p>
                 </button>
               </div>
             ))}
@@ -94,7 +94,7 @@ function QrMenu() {
                   <p className="discrptionCard shadows">{elem.description}</p>
                   <button className="cardMenuPrice textCenter spaceBetween white">
                     <p>{elem.price}</p>
-                    <p>SA</p>
+                    <p style={{ marginLeft:'10px'}}>SA</p>
                   </button>
                 </div>
                 <div className='Center' style={{height:100,width:150}}>
