@@ -94,7 +94,7 @@ function QrMenu() {
         {view === 1 && (
           <div className="margin row wrap">
             {subMenu.map((elem, i) => (
-              <div className="cardMenu" onClick={()=>{
+              <div key={i} className="cardMenu" onClick={()=>{
                 setElemModal(elem)
                 openModal()} }>
                 
@@ -115,7 +115,7 @@ function QrMenu() {
           <div className=" margin center">
             <div style={{width:'90%'}}>
             {subMenu.map((elem, i) => (
-              <div style={{marginBottom:20}} className="spaceBetween margin " onClick={()=>{
+              <div key={i} style={{marginBottom:20}} className="spaceBetween margin " onClick={()=>{
                 setElemModal(elem)
                 openModal()} } >
                 <div className="qrMenuVeiw2ZoneText">
