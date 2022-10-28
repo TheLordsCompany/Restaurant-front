@@ -351,6 +351,10 @@
         background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0004.jpg') !important ;
         background-position: 50% 50% !important;
       }
+      .qrMenuVeiw2ZoneText {
+        width: 220px;
+        max-width: 500px;
+    }
 
 }
 @media only screen and (max-width:470px) {
@@ -415,6 +419,9 @@
     #carousel3 {
         background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0003.jpg') !important;
         background-position: 40% 50% !important;
+    }
+    .qrMenuVeiw2ZoneText {
+        width: 150px;
     }
 }
 
@@ -529,10 +536,10 @@
     .instagramName {
         height: 250px !important;
     }
-
     .qrMenuVeiw2ZoneText {
-        width: 150px;
+        width: 100px;
     }
+    
 
     .titleCard {
         font-size: 12px;

@@ -88,13 +88,13 @@ function QrMenu() {
           <div className=" margin center">
             <div style={{width:'90%'}}>
             {subMenu.map((elem, i) => (
-              <div className="spaceBetween margin "   >
+              <div style={{marginBottom:20}} className="spaceBetween margin "   >
                 <div className="qrMenuVeiw2ZoneText">
                   <h6  className="titleCard bebas">{elem.name}</h6>
                   <p className="discrptionCard shadows">{elem.description}</p>
                   <button className="cardMenuPrice textCenter spaceBetween white">
                     <p>{elem.price}</p>
-                    <p style={{ marginLeft:'10px'}}>SA</p>
+                    <p style={{ marginLeft:'10px'}}>SAR</p>
                   </button>
                 </div>
                 <div className='Center' style={{height:100,width:150}}>
