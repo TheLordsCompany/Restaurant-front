@@ -19,7 +19,7 @@ function Food(props) {
         </p>
         <button className='cardMenuPrice white spaceBetween margin'>
           <p>{elem.price}</p>
-          <p style={{marginLeft:10}}>SA</p>
+          <p style={{marginLeft:10}}>SAR</p>
         </button>
       </div>
     </div>
