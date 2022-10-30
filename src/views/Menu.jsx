@@ -78,7 +78,7 @@ function Menu() {
       </div>
       {value < 4 && (
         <div className="loading center">
-          <h1>Loading</h1>
+          {/* <h1>Loading</h1> */}
         </div>
       )}
       <Header />
