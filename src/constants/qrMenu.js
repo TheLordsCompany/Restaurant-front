@@ -50,7 +50,7 @@ var array= [
        
         name: "CHEF SALAD",
         price: "47",
-        description: "",
+        description: "CHEF MOOD",
       },
     ],
   },
@@ -127,11 +127,10 @@ var array= [
     
     category: "FINGER BITES",
     elems: [
-      {
-        
-        name: "SAMBOSA",
+      { 
+        name: "SAMBOSA ",
         price: "28",
-        description: "Savory pastries stuffed with potato seasoned with indian spices.",
+        description: "Savory pastries stuffed with Chicken  seasoned with indian spices.",
       },
       {
         
