@@ -1,0 +1,77 @@
+.small {
+    font-size: 14px;
+}
+
+.meduim {
+    font-size: 18px;
+}
+.semiLarge {
+    font-size: 24px;
+}
+
+.large {
+    font-size: 36px;
+}
+
+.larger {
+    font-size: 66px;
+}
+
+.xlarger {
+    font-size: 90px;
+}
+
+
+
+.lighter {
+    font-weight: 100;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.blod {
+    font-weight: 700;
+}
+
+.bloder {
+    font-weight: 900;
+}
+
+
+
+
+.lobster {
+    font-family: 'Lobster Two', cursive;
+}
+
+.archivo {
+    font-family: "Archivo", sans-serif;
+}
+
+.signika {
+    font-family: "Signika", sans-serif;
+}
+
+.helvetica {
+    font-family: "Helvetica Neue";
+}
+
+.newsreader {
+    font-family: 'Newsreader', serif;
+}
+
+
+
+.great {
+    font-family: 'Great Vibes', cursive;
+}
+.shadows {
+    font-family: 'Shadows Into Light', cursive;
+}
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+

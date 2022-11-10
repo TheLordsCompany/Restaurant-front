@@ -1,0 +1,570 @@
+@media only screen and (min-width: 1164px) {
+
+    /* For desktop: */
+    .leftHeader .containerMenu {
+        visibility: visible;
+
+    }
+
+    .leftHeader .image {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .rightHeader .image {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+    .headerPage {
+        height: 550px;
+    }
+
+    .footer .containerMenu {
+        width: 30%;
+        text-align: center;
+    }
+
+    .homeCarousel {
+        background-size: 110%;
+
+    }
+    #carousel0 {
+        background-image: url('../assets/images/more470/023\ copy.jpg') !important;
+        background-position: 50% 50% ;
+      }
+      
+      #carousel1 {
+        background-image: url('../assets/images/more470/015\ copy.jpg') !important;
+        background-position: 40% 50% ;
+      }
+      
+      #carousel2 {
+        background-image: url('../assets/images/more470/051\ copy.jpg') !important;
+        background-position: 60% 50% ;
+      }
+      
+      #carousel3 {
+        background-image: url('../assets/images/more470/017\ copy.jpg') !important ;
+        background-position: 50% 90% !important;
+      }
+  
+
+    @keyframes zoominoutsinglefeatured {
+        0% {
+            background-size: 110%;
+        }
+
+        50% {
+            background-size: 120%;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width:1163px) and (min-width:767px) {
+
+    .leftHeader .containerMenu {
+        visibility: hidden;
+        width: 100px;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .leftHeader .image {
+        height: 200px;
+    }
+
+    .middleHeader img {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .rightHeader .containerMenu {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .headerPage {
+        background-size: 150%;
+    }
+
+    #image2 {
+        width: 350px !important;
+        height: 400px !important;
+        margin-left: 50px !important;
+    }
+
+    #image1 {
+        width: 700px !important;
+        height: 400px !important;
+    }
+
+    .container500 {
+        text-align: center;
+    }
+
+    .container300 {
+        text-align: center;
+    }
+
+    .footer .containerMenu {
+        width: 30%;
+        text-align: center;
+    }
+
+    .picturesZone {
+        width: 700px;
+    }
+
+    #pic1 {
+        width: 330px !important;
+        height: 220px !important;
+    }
+
+    #pic2 {
+        width: 480px !important;
+        height: 250px !important;
+    }
+
+    #pic3 {
+        height: 250px !important;
+        width: 180px !important;
+    }
+
+    #pic4 {
+        width: 680px !important;
+    }
+
+    #pic5 {
+        width: 330px !important;
+    }
+
+
+    .titleCard {
+        font-size: 18px;
+    }
+
+    .discrptionCard {
+        font-size: 12px;
+        color: rgb(163, 163, 163)
+    }
+
+    .cardMenu {
+        width: 30%;
+    }
+
+    .homeCarousel {
+        background-size: 220%;
+    }
+
+    @keyframes zoominoutsinglefeatured {
+        0% {
+            background-size: 220%;
+        }
+
+        50% {
+            background-size: 230%;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width:400px) {
+
+    /* For mobile phones: */
+    .leftHeader .containerMenu {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .leftHeader .image {
+        max-height: 150px;
+    }
+
+    .middleHeader img {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .rightHeader .containerMenu {
+        visibility: hidden;
+        width: 0px;
+
+    }
+
+    .container {
+        max-width: 90%;
+        justify-content: center;
+    }
+
+    .container .container500 {
+        margin-top: 20px;
+
+
+    }
+
+    .containerImage {
+        width: 300px;
+        justify-content: center;
+    }
+
+    .headerPage {
+        background-size: 180%;
+        height: 400px;
+
+    }
+
+    .headerOpacity {
+        /* width: 100%; */
+        max-height: 400px;
+
+    }
+
+    .headerPage h1 {
+        font-size: 48px;
+    }
+
+    .container h2 {
+        font-size: 48px;
+    }
+
+    .spaceBetween {
+        /* justify-content:baseline; */
+        flex-wrap: wrap;
+    }
+
+    .container .container500 {
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    #image1 {
+        height: 250px !important;
+        width: 380px !important;
+    }
+
+    #image2 {
+        width: 310px !important;
+    }
+
+    .container700 {
+        width: 300px;
+    }
+
+    .container500 {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .container300 {
+        text-align: center;
+    }
+
+    .footer .containerMenu {
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .picturesZone {
+        width: 400px;
+    }
+
+    #pic1 {
+        width: 390px !important;
+        height: 250px !important;
+    }
+
+    #pic2 {
+        width: 390px !important;
+        height: 250px !important;
+    }
+
+    #pic3 {
+        width: 390px !important;
+        height: 450px !important;
+    }
+
+    #pic4 {
+        width: 390px !important;
+        height: 250px !important;
+    }
+
+    #pic5 {
+        width: 190px !important;
+        height: 250px !important;
+        margin-right: 0px !important;
+    }
+
+    .titleCard {
+        font-size: 12px;
+    }
+
+    .discrptionCard {
+        font-size: 10px;
+        color: rgb(163, 163, 163)
+    }
+
+    .line {
+        height: 0.1em;
+        width: 300px;
+    }
+
+}
+
+@media only screen and (min-width:471px) and (max-width:1162px){
+    .homeCarousel {
+
+        background-size: 110%;
+    }
+
+    @keyframes zoominoutsinglefeatured {
+        0% {
+            background-size: 110%;
+        }
+
+        50% {
+            background-size: 120%;
+        }
+    }
+    #carousel0 {
+        background-image: url('../assets/images/ipadScreen/IMG-20221019-WA0001.jpg') !important;
+        background-position: 50% 50% ;
+      }
+      
+      #carousel1 {
+        background-image: url('../assets/images/ipadScreen/IMG-20221019-WA0002.jpg') !important;
+        background-position: 50% 50% ;
+      }
+      
+      #carousel2 {
+        background-image: url('../assets/images/ipadScreen/IMG-20221019-WA0008.jpg') !important;
+        background-position: 50% 50% ;
+      }
+      
+      #carousel3 {
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0004.jpg') !important ;
+        background-position: 50% 50% !important;
+      }
+      .qrMenuVeiw2ZoneText {
+        width: 220px;
+        max-width: 500px;
+    }
+
+}
+@media only screen and (max-width:470px) {
+    .popupPic{
+        height: 200px;
+    }
+    .picturesZone {
+        width: 300px;
+    }
+
+    #pic1 {
+        width: 280px !important;
+        height: 180px !important;
+    }
+
+    #pic2 {
+        width: 280px !important;
+        height: 180px !important;
+    }
+
+    #pic3 {
+        width: 280px !important;
+        height: 350px !important;
+    }
+
+    #pic4 {
+        width: 280px !important;
+        height: 180px !important;
+    }
+
+    #pic5 {
+        width: 280px !important;
+        height: 350px !important;
+    }
+
+    .homeCarousel {
+
+        background-size: 100%;
+    }
+
+    @keyframes zoominoutsinglefeatured {
+        0% {
+            background-size: 150%;
+        }
+
+        50% {
+            background-size: 160%;
+        }
+    }
+
+    #carousel0 {
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0005.jpg') !important;
+        background-position: 40% 50% !important;
+    }
+
+    #carousel1 {
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0006.jpg') !important;
+        background-position: 40% 50% !important;
+    }
+
+    #carousel2 {
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0007.jpg') !important;
+    }
+
+    #carousel3 {
+        background-image: url('../assets/images/ipadScreen//IMG-20221019-WA0003.jpg') !important;
+        background-position: 40% 50% !important;
+    }
+    .qrMenuVeiw2ZoneText {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:399px) {
+    .headerApp {
+        height: 100px;
+
+    }
+
+    .leftHeader .containerMenu {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .leftHeader .image {
+        height: 70px;
+    }
+
+    .middleHeader img {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .rightHeader .containerMenu {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .rightHeader .pointer {
+        width: 20px;
+    }
+
+    .container {
+        max-width: 90%;
+        justify-content: center;
+    }
+
+    .spaceBetween {
+        /* justify-content:baseline; */
+        flex-wrap: wrap;
+    }
+
+    .container .container500 {
+        margin-top: 20px;
+        width: 300px;
+
+
+    }
+
+    .containerImage {
+        width: 300px;
+        justify-content: center;
+    }
+
+    .headerPage {
+        background-size: 180%;
+        height: 300px;
+
+    }
+
+    .headerOpacity {
+
+        max-height: 300px;
+
+    }
+
+    .headerPage h1 {
+        font-size: 48px;
+    }
+
+    .container h2 {
+        font-size: 48px;
+    }
+
+    .specialCard {
+        background-size: 200% !important;
+    }
+
+    #image1 {
+        width: 300px !important;
+        height: 200px !important;
+    }
+
+    #image2 {
+        height: 400px !important;
+        width: 300px !important;
+    }
+
+    .container700 {
+        width: 300px;
+    }
+
+    .container500 {
+        width: 300px;
+        margin: 0px;
+    }
+
+    .footer .containerMenu {
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .xlarger {
+        font-size: 48px;
+    }
+
+    .meduim {
+        font-size: 18px;
+    }
+
+    .instagramName {
+        height: 250px !important;
+    }
+    .qrMenuVeiw2ZoneText {
+        width: 100px;
+    }
+    
+
+    .titleCard {
+        font-size: 12px;
+    }
+
+    .discrptionCard {
+        font-size: 10px;
+        color: rgb(163, 163, 163)
+    }
+
+    .cardMenu {
+        width: 40%;
+        margin-right: 20px;
+    }
+
+    .backgroundBlack {
+        margin-top: 100px;
+    }
+
+    .line {
+        height: 0.1em;
+        width: 200px;
+    }
+
+}
