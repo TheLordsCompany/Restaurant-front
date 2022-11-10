@@ -50,7 +50,7 @@ function About() {
                 tastes of the 21st century, to tantalise your taste buds. A
                 great meal also comes with a great service, ambience and, of course,
                 the company. At Afreen Lounge we pride on Quality service and
-                Quality food. It is our honour to welcome you to experience the
+                Quality food. It is our honour to welcome YOU to experience the
                 warm hospitality .
               </p>
               <p className="meduim blod shadows">
