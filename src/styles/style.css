@@ -231,7 +231,7 @@ textarea {
 .cardMenuPic {
     border-radius: 10px;
     height: 100px;
-    width: 150px;
+    /* width: 150px; */
     
 }
 .cardMenuPrice {
@@ -283,5 +283,9 @@ textarea {
     color:#ca9c5e;
     background-color:#ca9c5e;
   }
+  .ReactModal__Overlay {
+    z-index: 1 !important;
+    background-color: rgba(117, 117, 117, 0.719) !important;
+}
  
 
