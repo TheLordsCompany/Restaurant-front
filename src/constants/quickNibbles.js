@@ -1,17 +1,20 @@
-module.exports = [
+module.exports =  [
   {
-    name: "CHICKEN CORN SOUP ",
-    description: "",
-    price: "50",
+
+    name: "CHICKEN CORN SOUP",
+    price: "37",
+    description: '',
   },
   {
-    name: "CHICKEN CREAM SOUP ",
-    description: "",
-    price: "55",
-  },
-  {
+    
     name: "MUSHROOM SOUP",
-    description: "",
-    price: "55",
+    price: "34",
+    description: '',
   },
-];
+  {
+    
+    name: "FRENCH ONION SOUP",
+    price: "30",
+    description: '',
+  },
+]
