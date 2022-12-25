@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 // import iconFacebook from "../assets/images/Icon FB.svg";
 import { IoLogoInstagram } from "react-icons/io";
@@ -16,29 +16,36 @@ function Header(props) {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const [scrollPosition, setPosition] = useState({ scrollX: 0, scrollY: 0 })
+  const [scrollPosition, setPosition] = useState({ scrollX: 0, scrollY: 0 });
   useEffect(() => {
     function updatePosition() {
-        setPosition({ scrollX: window.scrollX, scrollY: window.scrollY })
+      setPosition({ scrollX: window.scrollX, scrollY: window.scrollY });
     }
     console.log(window.scrollX, window.scrollY);
-    window.addEventListener('scroll', updatePosition)
-    updatePosition()
+    window.addEventListener("scroll", updatePosition);
+    updatePosition();
 
-    return () => window.removeEventListener('scroll', updatePosition)
-  },[])
+    return () => window.removeEventListener("scroll", updatePosition);
+  }, []);
   return (
     <div
       className=" headerApp center"
       style={
-        scrollPosition.scrollY >= 100 || path === "/gallery" || path==='/qrmenu'
+        scrollPosition.scrollY >= 100 ||
+        path === "/gallery" ||
+        path === "/qrmenu"
           ? { backgroundColor: "black" }
           : {}
       }
     >
       <div className="header spaceBetween">
         <div className="leftHeader center ">
-          <img className="image" src={logo} alt="logo" onClick={()=>navigate('/')} />
+          <img
+            className="image"
+            src={logo}
+            alt="logo"
+            onClick={() => navigate("/")}
+          />
           <div className="containerMenu center ">
             <button
               className={
@@ -54,7 +61,9 @@ function Header(props) {
             </button>
             <button
               className={
-                path === "/menu" ? " orange menu signika " : "menu signika white"
+                path === "/menu"
+                  ? " orange menu signika "
+                  : "menu signika white"
               }
               onClick={() => {
                 navigate("/menu");
@@ -94,7 +103,7 @@ function Header(props) {
             className="Center"
             onClick={() => {
               navigate("/");
-            }}           
+            }}
           >
             <img
               className="image"
@@ -118,10 +127,23 @@ function Header(props) {
             >
               QR MENU
             </button>
-            <button className="menu  white signika" style={{ width: 150 }} onClick={()=> window.location.assign("https://hungerstation.com/sa-ar/restaurant/afreen/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A7/49828?fbclid=IwAR2ASgmUMyclNalPdE5tFH8dLEzgLMz3fpW_BnU6BmZJnYPGIjQJW3o_VcQ")}>ORDER ONLINE
+            <button
+              className="menu  white signika"
+              style={{ width: 150 }}
+              onClick={() => {
+                // window.location.assign("https://hungerstation.com/sa-ar/restaurant/afreen/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A7/49828?fbclid=IwAR2ASgmUMyclNalPdE5tFH8dLEzgLMz3fpW_BnU6BmZJnYPGIjQJW3o_VcQ")
+              }}
+            >
+              ORDER ONLINE
             </button>
             {/* <img src={iconFacebook} className="icon" alt='' /> */}
-            <IoLogoInstagram size={30} className='pointer' onClick={()=>window.location.assign("https://www.instagram.com/afreencafe/")} />
+            <IoLogoInstagram
+              size={30}
+              className="pointer"
+              onClick={() =>
+                window.location.assign("https://www.instagram.com/afreencafe/")
+              }
+            />
           </div>
           <div className="image center ">
             <button
@@ -150,7 +172,12 @@ function Header(props) {
             backdropClassName="offcanvamenu"
           >
             <Offcanvas.Header className="white">
-              <img className="image" src={logo} alt='' onClick={()=>navigate('/')}/>
+              <img
+                className="image"
+                src={logo}
+                alt=""
+                onClick={() => navigate("/")}
+              />
               <AiOutlineClose
                 size={30}
                 onClick={handleClose}
@@ -226,7 +253,15 @@ function Header(props) {
                 </button>
               </div>
               <div className="center">
-                <button className="menu white signika" onClick={()=>window.location.assign("https://hungerstation.com/sa-ar/restaurant/afreen/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A7/49828?fbclid=IwAR2ASgmUMyclNalPdE5tFH8dLEzgLMz3fpW_BnU6BmZJnYPGIjQJW3o_VcQ")}>ORDER ONLINE</button>
+                <button
+                  desible={true}
+                  className="menu white signika"
+                  onClick={() => {
+                    // window.location.assign("https://hungerstation.com/sa-ar/restaurant/afreen/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A7/49828?fbclid=IwAR2ASgmUMyclNalPdE5tFH8dLEzgLMz3fpW_BnU6BmZJnYPGIjQJW3o_VcQ")
+                  }}
+                >
+                  ORDER ONLINE
+                </button>
               </div>
             </Offcanvas.Body>
           </Offcanvas>
