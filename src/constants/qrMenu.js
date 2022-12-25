@@ -6,19 +6,19 @@ var array= [
       {
 
         name: "CHICKEN CORN SOUP",
-        price: "50",
+        price: "37",
         description: '',
       },
       {
         
         name: "MUSHROOM SOUP",
-        price: "55",
+        price: "34",
         description: '',
       },
       {
         
-        name: "CHICKEN CREAM SOUP",
-        price: "55",
+        name: "FRENCH ONION SOUP",
+        price: "30",
         description: '',
       },
     ],
@@ -31,27 +31,42 @@ var array= [
       {
         
         name: "CEASAR SALAD",
-        price: "52",
+        price: "42",
         description: "Ice burg lattuce, Cherry Tomato,Chicken, Served with Ceaser Dressing"
       },
       {
         
         name: "QUINUA SALAD",
-        price: "68",
+        price: "49",
         description: "QUINUA, Mixed vegetable, Served with Honey Lemon Dressing."
       },
       {
         
         name: "FRIED PRAWN SALAD",
-        price: "65",
+        price: "52",
         description: "Shrimp, avocado, Mix Baby Leaves, Pomegranates and Nuts, Served with Light Ranch Dressing.",
+      },   {
+        
+        name: "HUMMUS",
+        price: "32",
+        description: "",
+      },   {
+        
+        name: "MUTTABAL",
+        price: "30",
+        description: "",
+      },   {
+        
+        name: "FATTOUCH",
+        price: "28",
+        description: "",
+      },   {
+        
+        name: "TABOULAH",
+        price: "26",
+        description: "",
       },
-      {
-       
-        name: "CHEF SALAD",
-        price: "47",
-        description: "CHEF MOOD",
-      },
+   
     ],
   },
   {
@@ -63,63 +78,58 @@ var array= [
       {
         
         name: "DYNAMITE SHRIMP",
-        price: "65",
+        price: "58",
         description: "Fried Shrimp, Marinated with Mayonnaise, Served with Honey and Sriracha sauce.",
       },
       {
         
-        name: "ITALIAN POTATOES",
-        price: "55",
+        name: "SPICY POTATOES",
+        price: "38",
         description: "Cube Slice potatoes Baked and Cooked With Creamy Sauce.",
       },
       {
         
-        name: "PARMESANA CHICKEN",
-        price: "69",
-        description: "Crunchy on outside, Soft on the inside, Topped with layerof Malted Chadder Cheese, Herbs & vegetables.",
+        name: "AFREEN KIBAH 6PCS",
+        price: "48",
+        description: "",
       },
       {
         
         name: "RISOTTO BALLS",
-        price: "68",
+        price: "52",
         description: "Delicious Fried Rice Ball, Breaded with a Sweet Cheese in Center",
       },
+     
+      
       {
         
-        name: "CHEESE BALLS",
-        price: "46",
-        description: "Delicious Crispy Snack Mate with potatoes, cheez, herbs and Spices.",
-      },
-      {
+        name: "MOZARELLA STICKS",
+        price: "47",
+        description: "",
+      },{
         
         name: "STUFFED MUSHROOMS",
-        price: "62",
+        price: "55",
         description: "Edible Mushroom Backed & Served Hot.",
       },
       {
         
         name: "TENDER CHICKEN",
-        price: "47",
+        price: "45",
         description: "",
       },
       {
         
         name: "SHRIMPS SAUCE & CHERRY",
-        price: "68",
+        price: "53",
         description: "Fresh Tasty Shrimp Wrapped in Arabic Kunafa, Served with Sweet Cherry Sauce.",
       },
       {
         
-        name: "CALAMARI",
-        price: "69",
-        description: "Squid Fish Marinated with salt and pepper, Cover with Bread Crumb Then Deep fried and Served with saffron Garlic Sauce",
-      },
-      {
-        
-        name: "BREADED FISH CAKE",
-        price: "52",
-        description: "Potato, Fish, Seasoned with Hurbs and Cover with Bread Crumbs.",
-      },
+        name: "AFREEN SPECIAL ROLLS",
+        price: "42",
+        description: "",
+      }
     ],
   },
   {
@@ -129,7 +139,7 @@ var array= [
     elems: [
       { 
         name: "SAMBOSA ",
-        price: "28",
+        price: "32",
         description: "Savory pastries stuffed with Chicken  seasoned with indian spices.",
       },
       {
@@ -141,18 +151,30 @@ var array= [
       {
         
         name: "CHICKEN TIKKA ROLL",
-        price: "42",
+        price: "35",
         description: "It is Delicious Roll Where pieces of Grilled Chicken is wrapped in a soft roti and Stuffed with Vegetable.",
       },
       {
         
         name: "CHICKEN LOLLIPOP",
-        price: "49",
+        price: "45",
         description: "Chicken Wings marinated with Indian Spices and Hot Garlic Sauce then Deep Fried. Served with Hot sauce.",
       },  {
         
         name: "CREAM CHICKEN ROLL",
-        price: "38",
+        price: "35",
+        description: "",
+      },
+      {
+        
+        name: "CASADIA",
+        price: "49",
+        description: "",
+      },
+      {
+        
+        name: "MINI BURGERS CHICKEN AND BEEF",
+        price: "55",
         description: "",
       }
     ],
@@ -169,20 +191,14 @@ var array= [
       },
       {
         
-        name: "CHICKEN MOSAIC",
-        price: "85",
-        description: "",
-      },
-      {
-        
-        name: "BEEF PEPPER",
+        name: "TENDERLOIN BITES",
         price: "99",
-        description: "Tendelion Grilled Stock Covered with paper Sauce, Served with Creamy Smash Potatoes and Steam Vegetable.",
+        description: "",
       }, 
       {
         
         name: "CHICKEN PISTACHIO",
-        price: "92",
+        price: "95",
         description: "Grilled Chicken Brest Crusted with pistachio Crum and backed to Juice Perfection. Served with Mash Potatoes, Steamed vegetable and drip of Pistachio Sauce.",
       }, 
       {
@@ -190,13 +206,7 @@ var array= [
         name: "SALT PEPPER PRAWNS",
         price: "87",
         description: "",
-      }, 
-      {
-        
-        name: "NAJIL FISH",
-        price: "120",
-        description: "Najil fish Marinated with Lemon Sauce, Grilled, Served with Tasty mash potatoes and Healthy Grilled Vegetable.",
-      }, 
+      }
    
     ],
   },{
@@ -238,29 +248,24 @@ var array= [
       },   {
         
         name: "CHICKEN BIRYANI",
-        price: "65",
+        price: "62",
         description: "Aromatic Basmati Rice Cooked with tender pieces of Chicken, Herb and Spices, Served with gravy and Yoghurt Salad."
       },   {
         
         name: "MUTTON BIRYANI",
-        price: "83",
+        price: "75",
         description: ""
       },
       {
         
         name: "BUTTER CHICKEN",
-        price: "65",
+        price: "55",
         description: "Boneless pieces of Chicken Cooked in Butter, Cashew and Tomato Gravy with Cream."
       },{
         
         name: "MURGH TIKKA MASALA",
-        price: "65",
+        price: "60",
         description: "Tender BBQ Chicken Cooked in Creamy Sauce with fresh tomatoes and oriental Spices."
-      },{
-        
-        name: "NALLI GHOSHT",
-        price: "72",
-        description: "Mutton  Marinated, Cooked in Onion, Fresh tomato and Oriental Spices."
       }
     ],
   },{
@@ -271,29 +276,24 @@ var array= [
       {
         
         name: "CHICKEN TIKKA",
-        price: "64",
+        price: "65",
         description: "Chicken Pieces Marinated in Lemon, Spices & Hung Curd, Coocked in Tandoor. (Served with Mint Sauce)"
       },
       {
         
         name: "MUTTON SEEKH",
-        price: "85",
+        price: "75",
         description: "Maid with Minced Lamb Marinatedis verity of Indian Spices Grilled on a Tandoor (Served with onion rings, Lemon Wedges, Mint Sauce)"
       },{
         
         name: "KING BUTTER PRAWN",
-        price: "82",
+        price: "85",
         description: "Jumbo King Prawns Marinated in Garlic Past, Fresh Lemon juice, Carom Seeds, Spices, Hung Curd, Cooked in tandoor. (Served with Mint Sauce)"
       },{
         
         name: "MIX GRILL",
         price: "125",
         description: ""
-      },{
-        
-        name: "CREAM CHICKEN TIKKA",
-        price: "60",
-        description: "Chicken Pices Marinated in Ginger Garlic Paste, Lemon Juice, Spices & Fresh Cream"
       }
     ]
   },{
@@ -425,6 +425,24 @@ var array= [
         description: "sweet and touch of spice – raspberry fruit-pineapple juice-lemon juice-sugar syrup-tobasco"
       }
     ]
-  }
+  },{
+    id: 12,
+   
+    category: "HIGH TEA",
+    elems: [
+      {
+        name: "HIGH TEA COMBO",
+        price: "45",
+        description: "CROISSANT, MACARONS, FRUITS, TEA POT 2-4"
+      },]},{
+        id: 13,
+       
+        category: "SHISHA",
+        elems: [
+          {
+            name: "SHISHA YOUR CHOICE",
+            price: "99",
+            description: ""
+          }]}
 ];
 export default array

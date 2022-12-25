@@ -31,11 +31,11 @@ function Menu() {
       <div className='center'>
       <div className='container spaceBetween'>
         <div className='container500'>
-          <h2 className='archivo blod orange'>SOUP</h2>
+          <h2 className='archivo blod orange'>CHORBA</h2>
           {quickNibbles.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2 className='archivo blod orange'>SALADS (VEG)</h2>
+          <h2 className='archivo blod orange'>GREENS</h2>
           {snacksAndLitesVeg.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
@@ -43,17 +43,17 @@ function Menu() {
           {snacksAndLitesNonVeg.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2 className='archivo blod orange'>SMALL BITES</h2>
+          <h2 className='archivo blod orange'>FINGER BITES</h2>
           {biryanis.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
-          <h2 className='archivo blod orange'>INTERNATIONAL MAIN COURSE</h2>
+          <h2 className='archivo blod orange'>AROUND THE WORLD</h2>
           {sidesAndSalads.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
         </div>
         <div className='container500'>
-          <h2 className='archivo blod orange'>INDIAN MAIN COURSES</h2>
+          <h2 className='archivo blod orange'>DESI FLAVOURS</h2>
           {mainsNonVeg.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
             ))}
@@ -61,15 +61,15 @@ function Menu() {
           {mainsSeafoud.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
           ))}
-          <h2 className='archivo blod orange'>BREAD</h2>
+          <h2 className='archivo blod orange'>NAAN DIRECTLY FROM TANDOOR</h2>
           {mainsVegetarian.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
             ))}
-          <h2 className='archivo blod orange'>HOT DRINKS</h2>
+          <h2 className='archivo blod orange'>WINTER HEATER</h2>
           {naanBreads.map((elem,i)=>(
             <MenuElement key={i} elem={elem}/>
             ))}
-          <h2 className='archivo blod orange'>COLD DRINKS</h2>
+          <h2 className='archivo blod orange'>AFREEN SIGNATURE MOCKTAILS</h2>
           {desserts.map((elem, i) => (
             <MenuElement key={i} elem={elem} />
           ))}
