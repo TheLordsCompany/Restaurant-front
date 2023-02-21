@@ -3,6 +3,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 function Food(props) {
   let elem = props.elem
   let selected = props.selected
+  let lg=props.lg
   console.log(elem);
   return (
     <div className='white ' style={{ padding: 10 }}>
@@ -13,9 +14,9 @@ function Food(props) {
         <div className='center'>
           <img src={process.env.PUBLIC_URL + '/assets/images/qrmenu/' + selected.category + '/' + elem.name + '.jpg'} alt="" className="popupPic" />
         </div>
-        <h2 className='bebas margin'>{elem.name}</h2>
+        <h2 className='bebas margin'>{lg==='en'?elem.name:elem.nameAr}</h2>
         <p className='shadows margin'>
-          {elem.description}
+        {lg==='en'?elem.description:elem.descriptionAr}
         </p>
         <button className='cardMenuPrice white spaceBetween margin'>
           <p>{elem.price}</p>
