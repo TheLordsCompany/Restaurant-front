@@ -35,6 +35,12 @@ function QrMenu() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  useEffect(() => {
+    let aux = localStorage.getItem("lg");
+    if (aux) {
+      setLg(aux);
+    }
+  }, []);
 
   function openModal() {
     setIsOpen(true);
@@ -48,11 +54,21 @@ function QrMenu() {
     <div className="qrmenu">
       <button
         className="center white "
-        style={{ position: "absolute", top: 10, left: 20, zIndex: 2,background:'black' }}
+        style={{
+          position: "absolute",
+          top: 10,
+          left: 20,
+          zIndex: 2,
+          background: "black",
+        }}
         onClick={() => {
           if (lg === "en") {
-            setLg("ar");
-          } else setLg("en");
+            setLg("ar")
+            localStorage.setItem('lg','ar')
+          } else {
+            setLg("en");
+            localStorage.setItem('lg','en')
+          }
         }}
       >
         <div
@@ -154,8 +170,12 @@ function QrMenu() {
                   className="cardMenuPic"
                 />
 
-                <h6 className="titleCard bebas">{lg==='en'?elem.name:elem.nameAr}</h6>
-                <p className="discrptionCard shadows">{lg==='en'?elem.description:elem.descriptionAr}</p>
+                <h6 className="titleCard bebas">
+                  {lg === "en" ? elem.name : elem.nameAr}
+                </h6>
+                <p className="discrptionCard shadows">
+                  {lg === "en" ? elem.description : elem.descriptionAr}
+                </p>
                 <button className="cardMenuPrice textCenter spaceBetween white">
                   <p>{elem.price}</p>
                   <p style={{ marginLeft: "10px" }}>SAR</p>
@@ -178,8 +198,12 @@ function QrMenu() {
                   }}
                 >
                   <div className="qrMenuVeiw2ZoneText">
-                    <h6 className="titleCard bebas">{lg==='en'?elem.name:elem.nameAr}</h6>
-                    <p className="discrptionCard shadows">{lg==='en'?elem.description:elem.descriptionAr}</p>
+                    <h6 className="titleCard bebas">
+                      {lg === "en" ? elem.name : elem.nameAr}
+                    </h6>
+                    <p className="discrptionCard shadows">
+                      {lg === "en" ? elem.description : elem.descriptionAr}
+                    </p>
                     <button className="cardMenuPrice textCenter spaceBetween white">
                       <p>{elem.price}</p>
                       <p style={{ marginLeft: "10px" }}>SAR</p>
@@ -211,7 +235,12 @@ function QrMenu() {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <Food elem={elemModal} selected={selected} closeModal={closeModal} lg={lg} />
+        <Food
+          elem={elemModal}
+          selected={selected}
+          closeModal={closeModal}
+          lg={lg}
+        />
       </Modal>
       <Header />
       {/* {value < 4 && <Loading />} */}
