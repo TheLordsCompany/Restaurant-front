@@ -63,7 +63,7 @@ var array= [
       },   {
         
         name: "HUMMUS",
-        nameAr:"حمص ",
+        nameAr:"حمص",
         descriptionAr:"",
         price: "32",
         description: "",
@@ -179,7 +179,7 @@ var array= [
     category: "FINGER BITES",
     elems: [
       { 
-        name: "SAMBOSA ",
+        name: "SAMBOSA",
         nameAr:"سامبوسا",
         descriptionAr:"معجنات لذيذة محشوة بالدجاج المتبل بالبهارات الهندية",
         price: "32",
