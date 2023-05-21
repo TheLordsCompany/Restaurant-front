@@ -6,7 +6,7 @@ function Contact() {
   useEffect(()=>{
     window.scrollTo(0, 0);
   },[])
-  const form = document.getElementById('my_form');
+  // const form = document.getElementById('my_form');
   const [toSend, setToSend] = useState({
     from_name: "",
     to_name: "",
@@ -32,7 +32,7 @@ function Contact() {
   return (
     <div>
     
-      <div className='center headerPage' style={{ backgroundImage: 'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/h3.jpg")' }}>
+      <div className='center headerPage' style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/assets/images/qrMenu/MAMMA MIA/PESTO PASTA.jpg")` }}>
         <div className='headerOpacity center'>
           <div>
             <p className="textCenter">FIND US</p>

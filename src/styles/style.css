@@ -86,10 +86,10 @@
 }
 .card {
   width: 350px;
-  height: 360px;
+  height: 360px !important;
 
   margin: 10px;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }

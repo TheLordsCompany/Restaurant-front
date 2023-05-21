@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import Loading from "../components/Loading";
+import React, { useEffect } from "react";
+
 import Header from "../layout/Header";
 
 function About() {
-  const [value,setValue] = useState(0);
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -14,14 +14,17 @@ function About() {
         className="center headerPage"
         style={{
           backgroundImage:
-            'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/h1.jpg")',
+            `url("${process.env.PUBLIC_URL}/assets/images/more470/023 copy.jpg")`,
         }}
       >
         <div className="headerOpacity center">
           <h1 className="great xlarger">About Us</h1>
         </div>
       </div>
-        <img src='https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/h1.jpg' onLoad={()=>setValue(5)} alt='' className='onLoadPic'/>
+        <img src={`${process.env.PUBLIC_URL}/assets/images/more470/023 copy.jpg`}
+        //  onLoad={()=>setValue(5)} 
+         alt=''
+          className='onLoadPic'/>
       <div className="center">
         <div className="container">
           <p className="textCenter orange meduim blod">MORE FLAVOR FOR LESS</p>
@@ -34,9 +37,9 @@ function About() {
           <div className="row wrap Center">
             <div className="containerImage">
               <img
-                src={
-                  "https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-111.jpg"
-                }
+                src=
+                  {`${process.env.PUBLIC_URL}/assets/images/qrMenu/MAMMA MIA/PESTO PASTA.jpg`}
+                
                 alt={"food"}
                 style={{ width: "100%" }}
               />
@@ -68,7 +71,7 @@ function About() {
             className="center card"
             style={{
               backgroundImage:
-                'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/8t_UJbNw-1-scaled.jpeg")',
+              `url("${process.env.PUBLIC_URL}/assets/images/qrmenu/DESI FLAVOURS/DESI FLAVOURS.jpg")`,
             }}
           >
             
@@ -78,7 +81,7 @@ function About() {
             className="center card"
             style={{
               backgroundImage:
-                'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/5B1Pub3Q-scaled.jpeg")',
+              `url("${process.env.PUBLIC_URL}/assets/images/qrMenu/HIGH TEA/HIGH TEA COMBO.jpg")`,
             }}
           >
             
@@ -91,7 +94,7 @@ function About() {
               backgroundPositionX: -250,
               backgroundPositionY: -50,
               backgroundImage:
-                'url("https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/Untitled-2.jpg")',
+              `url("${process.env.PUBLIC_URL}/assets/images/qrMenu/MAMMA MIA/CHICKEN FETTUCCINI.jpg")`,
             }}
           >
             
@@ -119,7 +122,7 @@ function About() {
                   height: 375,
                   width: 561,
                   backgroundImage:
-                    "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-39-768x513.jpg')",
+                  `url("${process.env.PUBLIC_URL}/assets/images/more470/043 copy.jpg")`,
                 }}
               ></div>
               <div
@@ -131,7 +134,7 @@ function About() {
                   height: 375,
                   width: 250,
                   backgroundImage:
-                    "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-45-768x1152.jpg')",
+                  `url("${process.env.PUBLIC_URL}/assets/images/less470/010 copy.jpg")`,
                 }}
               ></div>
               <div
@@ -143,7 +146,7 @@ function About() {
                   height: 375,
                   width: 250,
                   backgroundImage:
-                    "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-49.jpg')",
+                  `url("${process.env.PUBLIC_URL}/assets/images/less470/004 copy.jpg")`,
                 }}
               ></div>
             </div>
@@ -159,7 +162,7 @@ function About() {
                   height: 499,
                   width: 748,
                   backgroundImage:
-                    "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-53-768x512.jpg')",
+                  `url("${process.env.PUBLIC_URL}/assets/images/more470/061 copy.jpg")`,
                 }}
               ></div>
               <div
@@ -171,7 +174,7 @@ function About() {
                   height: 499,
                   width: 332,
                   backgroundImage:
-                    "url('https://infisure.co.nz/indianlounge/wp-content/uploads/2022/09/IndianLounge-09August2022-56-768x1152.jpg')",
+                  `url("${process.env.PUBLIC_URL}/assets/images/less470/048 copy.jpg")`,
                 }}
               ></div>
             </div>
@@ -179,7 +182,7 @@ function About() {
         </div>
       </div>
       <Header />
-      {value < 4 && <Loading /> }
+    
       
     </div>
   );
